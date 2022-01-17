@@ -18,7 +18,7 @@ module.exports = {
       {
         resolve: "gatsby-plugin-manifest",
         options: {
-          icon: "src/images/IMG_6753.jpg",
+          icon: "src/images/skyline-logo.png",
         },
       },
       "gatsby-plugin-sharp",
