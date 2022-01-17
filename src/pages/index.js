@@ -1,11 +1,12 @@
 import * as React from "react"
+import TestComponent from "../components/TestComponent"
 
 
 // markup
 const IndexPage = () => {
   return (
     <main>
-      <title>Hello World</title>
+      <TestComponent></TestComponent>
     </main>
   )
 }
