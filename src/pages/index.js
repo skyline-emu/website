@@ -1,12 +1,12 @@
 import * as React from "react"
-import TestComponent from "../components/TestComponent"
+import Timeline from "../components/Timeline"
 
 
 // markup
 const IndexPage = () => {
   return (
     <main>
-      <TestComponent></TestComponent>
+      <Timeline/>
     </main>
   )
 }

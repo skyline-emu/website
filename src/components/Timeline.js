@@ -1,6 +1,6 @@
 import React from "react";
 
-const TestComponent = () => {
+const Timeline = () => {
     return (
         <div className="relative w-10/12 py-20 mx-auto md:w-7/12 lg:6/12">
             <h1 className="text-3xl font-bold text-center text-blue-500">Timeline with Markus</h1>
@@ -94,4 +94,4 @@ const TestComponent = () => {
     )
 }
 
-export default TestComponent
+export default Timeline
