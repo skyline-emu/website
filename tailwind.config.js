@@ -26,6 +26,18 @@ module.exports = {
     //     landscape: "url('/images/landscape/2.jpg')",
     //   }),
     // },
+    extend: {
+      spacing: {
+        '10': '2.5rem',
+      },
+      maxWidth: {
+        "page": "84rem",
+      },
+      colors: {
+        'colorPrimary': '#FF1E58F0',
+        'logoBackground': '#121212'
+      }
+    }
   },
   variants: {
     extend: {
@@ -33,10 +45,12 @@ module.exports = {
       borderColor: ["checked"],
       inset: ["checked"],
       zIndex: ["hover", "active"],
-    },
+    }
   },
-  plugins: [],
+  plugins: [
+    require('tw-elements/dist/plugin')
+  ],
   future: {
     purgeLayersByDefault: true,
-  },
- }
+  }
+}
