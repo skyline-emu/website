@@ -29,9 +29,10 @@ module.exports = {
     extend: {
       spacing: {
         '10': '2.5rem',
+        'landingImg': "32rem"
       },
       maxWidth: {
-        "page": "84rem",
+        "page": "80rem",
       },
       colors: {
         'colorPrimary': '#FF1E58F0',
