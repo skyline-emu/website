@@ -4,7 +4,7 @@ import phone from "../images/phone.png"
 
 const Landing = () => {
     return (
-        <div className="px-8 mx-auto my-20 max-w-page">
+        <div className="px-8 mx-auto my-28 max-w-page">
             <div className="flex flex-row justify-center">
                 <div className="w-full px-4 py-10 lg:w-5/12">
                     <h1 className="text-dark  font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-3">
@@ -40,12 +40,12 @@ const Landing = () => {
                 </div>
                 <div className="hidden px-4 lg:grow lg:flex"></div>
                 {/* Device Mockup created from <a href="https://deviceframes.com/templates/google-pixel-6">Google Pixel 6 mockups</a> */}
-                <div className="relative z-10 flex ml-36 justify-left">
+                <div className="relative z-10 flex ml-36 ">
                     <img
                         src={phone}
-                        className="md:h-landingImg"
+                        className="justify-left w-[15rem] md:h-landingImg"
                     />
-                    <span className="absolute -left-8 bottom-8 z-[-1]">
+                    <span className="absolute -left-8 bottom-12 z-[-1]">
                         <svg
                             width="93"
                             height="93"

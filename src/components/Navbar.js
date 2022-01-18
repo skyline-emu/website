@@ -37,7 +37,7 @@ const Navbar = () => {
                                 </div>
                             </div>
                         <div className="block">
-                            <div className="flex items-center ml-4 md:ml-6">
+                            <div className="flex items-center ml-4">
                                 <a href="https://github.com/skyline-emu/" className="p-1 text-gray-500 rounded-full focus:outline-none hover:text-gray-800 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                                     <span className="sr-only">
                                         Github
