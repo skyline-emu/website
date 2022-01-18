@@ -33,6 +33,7 @@ module.exports = {
       },
       maxWidth: {
         "page": "80rem",
+        "4.5xl": "60rem"
       },
       colors: {
         'colorPrimary': '#FF1E58F0',

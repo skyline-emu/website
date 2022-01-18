@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div>
             <nav className="bg-white dark:bg-gray-800 ">
-                <div className="px-8 mx-auto max-w-page">
+                <div className="px-8 mx-auto max-w">
                     <div className="flex items-center justify-between h-20">
                         <div className="flex items-center ">
                             <a className="flex-shrink-0" href="/">
@@ -20,7 +20,7 @@ const Navbar = () => {
                                 </h1>
                             </div>
                         </div>
-                        <div className="hidden md:flex md:flex-row md:grow md:justify-center">
+                        <div className="hidden md:flex md:flex-row md:grow">
                                 <div className="flex items-baseline ml-10 space-x-4">
                                     <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md hover:text-gray-800 hover:font-bold dark:hover:text-white" href="/#">
                                         Home

@@ -1,10 +1,10 @@
 import React from "react"
 import phone from "../images/phone.png"
-
+import logo from "../images/skyline-logo.png"
 
 const Landing = () => {
     return (
-        <div className="px-8 mx-auto my-28 max-w-page">
+        <div className="max-w-4.5xl px-8 mx-auto my-28">
             <div className="flex flex-row justify-center">
                 <div className="w-full px-4 py-10 lg:w-5/12">
                     <h1 className="text-dark  font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-3">
@@ -20,7 +20,7 @@ const Landing = () => {
                     </ul>
                     <div className="items-baseline pt-16 clients">
                         <h6 className="flex items-center text-sm font-bold text-gray-500 uppercase text-body-color">
-                             Built using
+                            Built using
                         </h6>
                         <div className="flex items-center">
                             <div className="w-full py-3 mr-12">
@@ -38,14 +38,17 @@ const Landing = () => {
                         </div>
                     </div>
                 </div>
-                <div className="hidden px-4 lg:grow lg:flex"></div>
+                <div className="hidden px-4 lg:flex"></div>
                 {/* Device Mockup created from <a href="https://deviceframes.com/templates/google-pixel-6">Google Pixel 6 mockups</a> */}
                 <div className="relative z-10 flex ml-36 ">
                     <img
                         src={phone}
                         className="justify-left w-[15rem] md:h-landingImg"
                     />
-                    <span className="absolute -left-8 bottom-12 z-[-1]">
+                    {/* <span className="absolute -left-8 bottom-12 z-[-1]">
+                        <img src={logo} className="rounded-full h-80 w-80"/>
+                    </span> */}
+                    <span className="absolute -left-6 bottom-20 z-[-1]">
                         <svg
                             width="93"
                             height="93"
