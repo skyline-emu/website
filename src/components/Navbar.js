@@ -4,7 +4,7 @@ import logo from "../images/skyline-logo.png"
 const Navbar = () => {
     return (
         <div>
-            <nav className="bg-white dark:bg-gray-800 ">
+            <nav className="bg-white dark:bg-gray-900 ">
                 <div className="px-8 mx-auto max-w">
                     <div className="flex items-center justify-between h-20">
                         <div className="flex items-center ">
@@ -12,7 +12,7 @@ const Navbar = () => {
                                 <img className="w-10 h-10 rounded-full" src={logo} alt="" />
                             </a>
                             <div className="flex-col justify-center">
-                                <h1 className="px-4 text-xl font-bold text-gray-800 rounded-md dark:hover:text-white" href="/#">
+                                <h1 className="px-4 text-xl font-bold text-gray-800 rounded-md dark:text-white" href="/#">
                                     Skyline
                                 </h1>
                                 <h1 className="px-4 text-xs font-bold text-gray-500 uppercase rounded-md dark:hover:text-white" href="/#">
