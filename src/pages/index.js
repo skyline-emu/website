@@ -18,11 +18,11 @@ const IndexPage = () => {
   return (
     <main className={isDark ? "dark" : "light"}>
 
-      <Helmet htmlAttributes={{ lang: 'en' }}>
+      {/* <Helmet htmlAttributes={{ lang: 'en' }}>
         <meta charSet="utf-8" />
         <meta name="description" content="" />
         <title>Skyline</title>
-      </Helmet>
+      </Helmet> */}
 
       <div className="fixed z-50 bottom-10 right-10 ">
         <button
@@ -36,6 +36,7 @@ const IndexPage = () => {
 
       <Navbar />
       <Landing />
+
 
     </main>
   )
