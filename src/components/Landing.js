@@ -51,15 +51,8 @@ const Landing = () => {
                     </div>
                     {/* <div className="hidden px-4 lg:flex"></div> */}
                     {/* Device Mockup created from <a href="https://deviceframes.com/templates/google-pixel-6">Google Pixel 6 mockups</a> */}
-                    <div className="relative z-10 hidden lg:flex ml-36 max-w-max">
-                        <img
-                            src={phone}
-                            className="justify-left w-[15rem] md:h-landingImg"
-                        />
-                        {/* <span className="absolute -left-8 bottom-12 z-[-1]">
-                        <img src={logo} className="rounded-full h-80 w-80"/>
-                    </span> */}
-                        {/* <span className="absolute -left-6 bottom-20 z-[-1]">
+                    <div className="z-10 justify-center hidden w-full px-4 py-10 lg:w-6/12 lg:flex md:flex">
+                        <span className="relative left-[10%]  top-[85%] justify-left align-bottom z-[-1]">
                             <svg
                                 width="93"
                                 height="93"
@@ -67,33 +60,72 @@ const Landing = () => {
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
-                                <circle cx="2.5" cy="2.5" r="2.5" fill="#3056D3" />
-                                <circle cx="2.5" cy="24.5" r="2.5" fill="#3056D3" />
-                                <circle cx="2.5" cy="46.5" r="2.5" fill="#3056D3" />
-                                <circle cx="2.5" cy="68.5" r="2.5" fill="#3056D3" />
-                                <circle cx="2.5" cy="90.5" r="2.5" fill="#3056D3" />
-                                <circle cx="24.5" cy="2.5" r="2.5" fill="#3056D3" />
-                                <circle cx="24.5" cy="24.5" r="2.5" fill="#3056D3" />
-                                <circle cx="24.5" cy="46.5" r="2.5" fill="#3056D3" />
-                                <circle cx="24.5" cy="68.5" r="2.5" fill="#3056D3" />
-                                <circle cx="24.5" cy="90.5" r="2.5" fill="#3056D3" />
-                                <circle cx="46.5" cy="2.5" r="2.5" fill="#3056D3" />
-                                <circle cx="46.5" cy="24.5" r="2.5" fill="#3056D3" />
-                                <circle cx="46.5" cy="46.5" r="2.5" fill="#3056D3" />
-                                <circle cx="46.5" cy="68.5" r="2.5" fill="#3056D3" />
-                                <circle cx="46.5" cy="90.5" r="2.5" fill="#3056D3" />
-                                <circle cx="68.5" cy="2.5" r="2.5" fill="#3056D3" />
-                                <circle cx="68.5" cy="24.5" r="2.5" fill="#3056D3" />
-                                <circle cx="68.5" cy="46.5" r="2.5" fill="#3056D3" />
-                                <circle cx="68.5" cy="68.5" r="2.5" fill="#3056D3" />
-                                <circle cx="68.5" cy="90.5" r="2.5" fill="#3056D3" />
-                                <circle cx="90.5" cy="2.5" r="2.5" fill="#3056D3" />
-                                <circle cx="90.5" cy="24.5" r="2.5" fill="#3056D3" />
-                                <circle cx="90.5" cy="46.5" r="2.5" fill="#3056D3" />
-                                <circle cx="90.5" cy="68.5" r="2.5" fill="#3056D3" />
-                                <circle cx="90.5" cy="90.5" r="2.5" fill="#3056D3" />
+                                <circle cx="2.5" cy="2.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="2.5" cy="24.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="2.5" cy="46.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="2.5" cy="68.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="2.5" cy="90.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="24.5" cy="2.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="24.5" cy="24.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="24.5" cy="46.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="24.5" cy="68.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="24.5" cy="90.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="46.5" cy="2.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="46.5" cy="24.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="46.5" cy="46.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="46.5" cy="68.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="46.5" cy="90.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="68.5" cy="2.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="68.5" cy="24.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="68.5" cy="46.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="68.5" cy="68.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="68.5" cy="90.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="90.5" cy="2.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="90.5" cy="24.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="90.5" cy="46.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="90.5" cy="68.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="90.5" cy="90.5" r="2.5" fill="#3B82F6" />
+                            </svg>
+                        </span>
+                        {/* <span className="relative left-[50%]  bottom-[10%] justify-left align-bottom z-[-1]">
+                            <svg
+                                width="93"
+                                height="93"
+                                viewBox="0 0 93 93"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <circle cx="2.5" cy="2.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="2.5" cy="24.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="2.5" cy="46.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="2.5" cy="68.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="2.5" cy="90.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="24.5" cy="2.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="24.5" cy="24.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="24.5" cy="46.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="24.5" cy="68.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="24.5" cy="90.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="46.5" cy="2.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="46.5" cy="24.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="46.5" cy="46.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="46.5" cy="68.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="46.5" cy="90.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="68.5" cy="2.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="68.5" cy="24.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="68.5" cy="46.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="68.5" cy="68.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="68.5" cy="90.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="90.5" cy="2.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="90.5" cy="24.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="90.5" cy="46.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="90.5" cy="68.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="90.5" cy="90.5" r="2.5" fill="#3B82F6" />
                             </svg>
                         </span> */}
+                        <img
+                            src={phone}
+                            className="w-[15rem] md:h-landingImg"
+                        />
                     </div>
                 </div>
             </div>
