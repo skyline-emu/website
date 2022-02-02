@@ -17,21 +17,22 @@ const Landing = () => {
                         <p className="text-base dark:text-white mb-8 text-body-color max-w-[480px]">
                             Skyline is an experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system.
                         </p> */}
-                        <div className="mb-6">
-                            <div>
+                        <div className="mt-6 mb-10">
+                            {/* <div>
                                 <p className="inline-block py-px mb-4 text-xs font-semibold tracking-wider text-blue-500 uppercase rounded-full bg-teal-accent-400">
                                     Open Source
                                 </p>
-                            </div>
+                            </div> */}
                             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-8 tracking-tight dark:text-white sm:text-4xl">
-                                Nintendo Switch Emulator
+                                Skyline
                                 {/* <br className="hidden md:block" /> your next{" "} */}
-                                <span className="inline-block text-blue-500">
-                                    for Android
+                                <br></br>
+                                <span className="inline-block text-2xl text-blue-500">
+                                    Nintendo Switch™ Emulator for Android™
                                 </span>
                             </h2>
                             <p className="text-base dark:text-white md:text-lg">
-                                Skyline is an experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system.
+                                Skyline is an open source and experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system.
                             </p>
                         </div>
                         <ul className="flex flex-wrap items-center">
