@@ -1,8 +1,6 @@
 import React, { useState } from "react"
 import Navbar from "../components/Navbar"
-import 'tw-elements';
 import Landing from "../components/Landing";
-import { Helmet } from "react-helmet"
 
 
 

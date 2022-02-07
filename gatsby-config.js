@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-      // siteUrl: "",
+      siteUrl: "https://example.com",
       title: "Skyline - Open Source Emulator",
       description: "Skyline is an open source Nintendo Switch Emulator.",
       author: "Put authors here later",
