@@ -32,7 +32,7 @@ const IndexPage = () => {
         </button>
       </div>
 
-      <Navbar />
+      <Navbar/>
       <Landing />
 
 
