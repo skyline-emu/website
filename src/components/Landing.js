@@ -3,6 +3,7 @@ import phone from "../images/phone.png"
 import logo from "../images/skyline-logo.png"
 import vulkan from "../images/vulkan.png"
 import vulkan_white from "../images/vulkan-white.png"
+import { StaticImage } from "gatsby-plugin-image"
 
 
 const Landing = () => {
@@ -36,23 +37,23 @@ const Landing = () => {
                             </p>
                         </div>
                         <ul className="flex flex-wrap items-center">
-                            <button className="px-5 py-2 text-lg font-bold text-gray-100 transition-colors duration-700 transform bg-blue-500 rounded-lg hover:bg-blue-400">Download</button>
-                            <button className="px-5 py-2 ml-3 text-lg font-bold text-blue-500 transition-colors duration-700 transform rounded-lg">Learn More</button>
+                            <button className="px-5 py-2 text-lg font-bold text-gray-100 transition-colors duration-700 transform bg-blue-500 border border-blue-500 rounded-lg hover:bg-blue-400">Download</button>
+                            <button className="px-5 py-2 ml-3 text-lg font-bold text-blue-500 transition-colors duration-700 transform border border-blue-500 rounded-lg hover:bg-white">Learn More</button>
                         </ul>
                         <div className="items-baseline pt-16 clients">
-                            <h6 className="flex items-center text-sm font-bold text-gray-500 uppercase text-body-color dark:text-blue-500">
+                            <h6 className="flex items-center text-sm font-bold text-gray-500 uppercase text-body-color dark:text-white">
                                 Built using
                             </h6>
                             <div className="flex items-center py-10">
-                                <img className="w-[200px] min-h-[50px] show dark:hidden" src={vulkan} alt="ayroui" />
-                                <img className="w-[200px] min-h-[50px] show dark:show" src={vulkan_white} alt="ayroui" />
+                                <img className="w-[200px] min-h-[50px] show dark:hidden" src={vulkan} alt="lol" />
+                                <img className="w-[200px] min-h-[50px] show dark:show" src={vulkan_white} alt="lol" />
                             </div>
                         </div>
                     </div>
                     {/* <div className="hidden px-4 lg:flex"></div> */}
                     {/* Device Mockup created from <a href="https://deviceframes.com/templates/google-pixel-6">Google Pixel 6 mockups</a> */}
                     <div className="z-10 justify-center hidden w-full px-4 py-10 lg:w-6/12 lg:flex md:flex">
-                        <span className="relative left-[10%]  top-[85%] justify-left align-bottom z-[-1]">
+                        <span className="relative left-[26%]  top-[86%] justify-left align-bottom z-[-1]">
                             <svg
                                 width="93"
                                 height="93"
@@ -87,7 +88,7 @@ const Landing = () => {
                                 <circle cx="90.5" cy="90.5" r="2.5" fill="#3B82F6" />
                             </svg>
                         </span>
-                        {/* <span className="relative left-[50%]  bottom-[10%] justify-left align-bottom z-[-1]">
+                        <span className="relative left-[45%]  bottom-[5%] justify-left align-bottom z-[-1]">
                             <svg
                                 width="93"
                                 height="93"
@@ -95,37 +96,39 @@ const Landing = () => {
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
-                                <circle cx="2.5" cy="2.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="2.5" cy="24.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="2.5" cy="46.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="2.5" cy="68.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="2.5" cy="90.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="24.5" cy="2.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="24.5" cy="24.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="24.5" cy="46.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="24.5" cy="68.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="24.5" cy="90.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="46.5" cy="2.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="46.5" cy="24.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="46.5" cy="46.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="46.5" cy="68.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="46.5" cy="90.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="68.5" cy="2.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="68.5" cy="24.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="68.5" cy="46.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="68.5" cy="68.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="68.5" cy="90.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="90.5" cy="2.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="90.5" cy="24.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="90.5" cy="46.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="90.5" cy="68.5" r="2.5" fill="#3B82F6" />
-                                <circle cx="90.5" cy="90.5" r="2.5" fill="#3B82F6" />
+                                <circle cx="2.5" cy="2.5" r="2.5" fill="#de313f" />
+                                <circle cx="2.5" cy="24.5" r="2.5" fill="#de313f" />
+                                <circle cx="2.5" cy="46.5" r="2.5" fill="#de313f" />
+                                <circle cx="2.5" cy="68.5" r="2.5" fill="#de313f" />
+                                <circle cx="2.5" cy="90.5" r="2.5" fill="#de313f" />
+                                <circle cx="24.5" cy="2.5" r="2.5" fill="#de313f" />
+                                <circle cx="24.5" cy="24.5" r="2.5" fill="#de313f" />
+                                <circle cx="24.5" cy="46.5" r="2.5" fill="#de313f" />
+                                <circle cx="24.5" cy="68.5" r="2.5" fill="#de313f" />
+                                <circle cx="24.5" cy="90.5" r="2.5" fill="#de313f" />
+                                <circle cx="46.5" cy="2.5" r="2.5" fill="#de313f" />
+                                <circle cx="46.5" cy="24.5" r="2.5" fill="#de313f" />
+                                <circle cx="46.5" cy="46.5" r="2.5" fill="#de313f" />
+                                <circle cx="46.5" cy="68.5" r="2.5" fill="#de313f" />
+                                <circle cx="46.5" cy="90.5" r="2.5" fill="#de313f" />
+                                <circle cx="68.5" cy="2.5" r="2.5" fill="#de313f" />
+                                <circle cx="68.5" cy="24.5" r="2.5" fill="#de313f" />
+                                <circle cx="68.5" cy="46.5" r="2.5" fill="#de313f" />
+                                <circle cx="68.5" cy="68.5" r="2.5" fill="#de313f" />
+                                <circle cx="68.5" cy="90.5" r="2.5" fill="#de313f" />
+                                <circle cx="90.5" cy="2.5" r="2.5" fill="#de313f" />
+                                <circle cx="90.5" cy="24.5" r="2.5" fill="#de313f" />
+                                <circle cx="90.5" cy="46.5" r="2.5" fill="#de313f" />
+                                <circle cx="90.5" cy="68.5" r="2.5" fill="#de313f" />
+                                <circle cx="90.5" cy="90.5" r="2.5" fill="#de313f" />
                             </svg>
-                        </span> */}
-                        <img
+                        </span>
+                        {/* <img
                             src={phone}
                             className="w-[15rem] md:h-landingImg"
-                        />
+                        /> */}
+                        <StaticImage className="w-[220px]" src="../images/phone.png" alt="Super Tux Cart Best Game" />
+
                     </div>
                 </div>
             </div>
