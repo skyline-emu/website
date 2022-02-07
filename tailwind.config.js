@@ -50,7 +50,7 @@ module.exports = {
     }
   },
   plugins: [
-    require('tw-elements/dist/plugin')
+    
   ],
   future: {
     purgeLayersByDefault: true,
