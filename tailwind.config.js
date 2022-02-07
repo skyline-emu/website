@@ -37,7 +37,7 @@ module.exports = {
       },
       colors: {
         'colorPrimary': '#FF1E58F0',
-        'logoBackground': '#121212'
+        'darkBackground': '#121212'
       }
     }
   },

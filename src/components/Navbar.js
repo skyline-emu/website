@@ -4,7 +4,7 @@ import logo from "../images/skyline-logo.png"
 const Navbar = () => {
     return (
         <div className="">
-            <nav className="bg-white dark:bg-gray-900">
+            <nav className="bg-white dark:bg-darkBackground">
                 <div className="px-8 mx-auto max-w-page">
                     <div className="flex items-center justify-between h-20">
                         <div className="flex items-center ">
