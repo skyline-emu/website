@@ -37,6 +37,8 @@ const IndexPage = () => {
       <Landing />
       <Footer/>
 
+      {/* Inter is my suggestion for the website text, what you want for the logo is Rubik */}
+
 
     </main>
   )

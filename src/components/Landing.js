@@ -50,7 +50,7 @@ const Landing = () => {
                     </div>
                     {/* <div className="hidden px-4 lg:flex"></div> */}
                     {/* Device Mockup created from <a href="https://deviceframes.com/templates/google-pixel-6">Google Pixel 6 mockups</a> */}
-                    <div className="z-10 justify-center hidden w-full px-4 py-10 lg:w-6/12 lg:flex md:flex">
+                    <div className="z-10 justify-center hidden w-full px-4 py-10 lg:w-6/12 lg:flex">
                         <span className="relative left-[26%]  top-[86%] justify-left align-bottom z-[-1]">
                             <svg
                                 width="93"
@@ -125,7 +125,7 @@ const Landing = () => {
                             src={phone}
                             className="w-[15rem] md:h-landingImg"
                         /> */}
-                        <StaticImage className="w-[220px]" src="../images/phone.png" alt="Super Tux Cart Best Game" />
+                        <StaticImage className="lg:w-[220px] w-[100px] h-auto" src="../images/phone.png" alt="Super Tux Cart Best Game" />
 
                     </div>
                 </div>
