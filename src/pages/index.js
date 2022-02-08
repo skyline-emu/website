@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import Navbar from "../components/Navbar"
 import Landing from "../components/Landing";
+import Footer from "../components/Footer";
 
 
 
@@ -34,6 +35,7 @@ const IndexPage = () => {
 
       <Navbar/>
       <Landing />
+      <Footer/>
 
 
     </main>

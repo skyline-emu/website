@@ -35,7 +35,7 @@ const Landing = () => {
                             </p>
                         </div>
                         <ul className="flex flex-wrap items-center">
-                            <button className="px-5 py-2 text-lg font-bold text-gray-100 uppercase transition-colors duration-700 transform bg-blue-500 border-2 border-gray-600 rounded-lg hover:text-blue-500 hover:bg-white hover:border-white">Download</button>
+                            <button className="px-5 py-2 text-lg font-bold text-gray-100 uppercase transition-colors duration-700 transform bg-blue-500 border border-blue-500 rounded-lg hover:text-blue-500 hover:bg-white hover:border-white">Download</button>
                             <button className="px-5 py-2 ml-3 text-lg font-bold text-blue-500 uppercase transition-colors duration-700 transform border-2 border-gray-600 rounded-lg hover:bg-white">Learn More</button>
                         </ul>
                         <div className="items-baseline pt-16 clients">
