@@ -16,7 +16,7 @@ const Landing = () => {
                         <p className="text-base dark:text-white mb-8 text-body-color max-w-[480px]">
                             Skyline is an experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system.
                         </p> */}
-                        <div className="mt-6 mb-10">
+                        <div className="mb-10 lg:mt-6">
                             {/* <div>
                                 <p className="inline-block py-px mb-4 text-xs font-semibold tracking-wider text-blue-500 uppercase rounded-full bg-teal-accent-400">
                                     Open Source
