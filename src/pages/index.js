@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar"
 import Landing from "../sections/Landing"
 import Footer from "../sections/Footer"
 import About from "../sections/About"
+import Team from "../sections/Team"
 
 const IndexPage = () => {
 
@@ -71,8 +72,8 @@ const IndexPage = () => {
       <Navbar />
       <Landing />
       <About />
-
-      <Footer />
+      <Team/>
+      {/* <Footer /> */}
 
 
       {/*

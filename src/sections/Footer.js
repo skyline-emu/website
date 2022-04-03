@@ -1,7 +1,6 @@
 import React from "react";
 
 const Footer = () => {
-
     return (
         <div className="w-full pb-36 dark:bg-darkBackground">
             <div className="flex justify-center">
@@ -20,7 +19,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-    );
+    )
 };
 
 export default Footer;

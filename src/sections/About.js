@@ -9,7 +9,7 @@ const About = () => {
 
     return (
 
-        <div className="w-full pb-20 lg:h-full dark:bg-darkBackground font-inter">
+        <div className="w-full pb-32 lg:h-full dark:bg-darkBackground font-inter">
             <div class="px-8 mx-auto max-w-page">
                 <div class="mx-auto max-w-6xl flex flex-col md:flex-row">
                     <div className="flex flex-col w-full mr-8 md:w-1/3">
