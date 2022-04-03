@@ -1,9 +1,8 @@
 import React, { useState } from "react"
 import Navbar from "../components/Navbar"
-import Landing from "../components/Landing";
-import Footer from "../components/Footer";
-
-
+import Landing from "../components/Landing"
+import Footer from "../components/Footer"
+import About from "../components/About"
 
 const IndexPage = () => {
 
@@ -48,7 +47,10 @@ const IndexPage = () => {
 
       <Navbar />
       <Landing />
+      <About/>
+
       <Footer />
+
 
       {/*
       
