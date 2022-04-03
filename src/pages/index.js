@@ -15,6 +15,8 @@ const IndexPage = () => {
   }
 
   return (
+
+
     <main className={isDark ? "dark" : "light"}>
 
       {/* <Helmet htmlAttributes={{ lang: 'en' }}>
@@ -22,6 +24,17 @@ const IndexPage = () => {
         <meta name="description" content="" />
         <title>Skyline</title>
       </Helmet> */}
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"/>
+
+      </head>
 
       <div className="fixed z-50 bottom-10 right-10 ">
         <button
@@ -33,9 +46,9 @@ const IndexPage = () => {
         </button>
       </div>
 
-      <Navbar/>
+      <Navbar />
       <Landing />
-      <Footer/>
+      <Footer />
 
       {/*
       

@@ -16,13 +16,13 @@ const Landing = () => {
                         <p className="text-base dark:text-white mb-8 text-body-color max-w-[480px]">
                             Skyline is an experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system.
                         </p> */}
-                        <div className="mb-10 lg:mt-6">
+                        <div className="mb-10 lg:mt-6 font-inter">
                             {/* <div>
                                 <p className="inline-block py-px mb-4 text-xs font-semibold tracking-wider text-blue-500 uppercase rounded-full bg-teal-accent-400">
                                     Open Source
                                 </p>
                             </div> */}
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-8 tracking-tight dark:text-white sm:text-4xl">
+                            <h2 className="max-w-lg mb-6 text-3xl font-bold leading-8 tracking-tight dark:text-white sm:text-4xl">
                                 Skyline
                                 {/* <br className="hidden md:block" /> your next{" "} */}
                                 <br></br>
@@ -34,12 +34,12 @@ const Landing = () => {
                                 Skyline is an open source and experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system.
                             </p>
                         </div>
-                        <ul className="flex flex-wrap items-center">
+                        <ul className="flex flex-wrap items-center font-roboto">
                             <button className="px-5 py-2 font-bold text-gray-100 uppercase transition-colors duration-700 transform bg-blue-500 border border-blue-500 rounded-lg lg:text-lg hover:text-blue-500 hover:bg-white hover:border-white">Download</button>
                             <button className="px-5 py-2 ml-2 font-bold text-blue-500 uppercase transition-colors duration-700 transform border-2 border-gray-600 rounded-lg lg:text-lg lg:ml-3 hover:bg-white">Learn More</button>
                         </ul>
                         <div className="items-baseline pt-16 clients">
-                            <h6 className="flex items-center text-sm font-bold text-gray-500 uppercase text-body-color dark:text-white">
+                            <h6 className="flex items-center text-sm font-bold font-inter text-gray-500 uppercase text-body-color dark:text-white">
                                 Built using
                             </h6>
                             <div className="flex items-center py-6">

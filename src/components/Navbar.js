@@ -4,11 +4,7 @@ import Hamburger from 'hamburger-react'
 
 const Navbar = () => {
 
-
-
     const [navbarOpen, setNavbarOpen] = useState(false);
-
-
 
     return (
         <div className="">
@@ -19,7 +15,7 @@ const Navbar = () => {
                             <a className="flex-shrink-0" href="/">
                                 <img className="w-10 h-10 rounded-full" src={logo} alt="" />
                             </a>
-                            <div className="flex-col justify-center">
+                            <div className="flex-col justify-center font-rubik">
                                 <h1 className="px-4 text-xl font-bold text-gray-800 rounded-md dark:text-white" href="/#">
                                     Skyline
                                 </h1>
@@ -28,7 +24,7 @@ const Navbar = () => {
                                 </h1>
                             </div>
                         </div>
-                        <div className="hidden md:flex md:flex-row md:grow">
+                        <div className="hidden md:flex md:flex-row md:grow font-roboto">
                             <div className="flex items-baseline ml-10 space-x-4">
                                 <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md hover:text-blue-500 hover:font-bold dark:text-white dark:hover:text-blue-500" href="/#">
                                     Home

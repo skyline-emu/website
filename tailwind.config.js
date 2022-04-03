@@ -38,7 +38,13 @@ module.exports = {
       colors: {
         'colorPrimary': '#FF1E58F0',
         'darkBackground': '#121212'
-      }
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+        'rubik': ['Rubik', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif']
+      },
     }
   },
   variants: {
