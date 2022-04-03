@@ -6,8 +6,8 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Landing = () => {
     return (
-        <div className="w-full pb-20 lg:h-full dark:bg-darkBackground ">
-            <div className="px-8 mx-auto max-w-page py-28">
+        <div className="w-full pb-20 lg:h-full dark:bg-darkBackground">
+            <div className="px-8 mx-auto py-36 max-w-page">
                 <div className="flex flex-row">
                     <div className="w-full px-4 py-10 lg:w-6/12">
                         {/* <h1 className="text-dark dark:text-white font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-3">
@@ -39,7 +39,7 @@ const Landing = () => {
                             <button className="px-5 py-2 ml-2 font-bold text-blue-500 uppercase transition-colors duration-700 transform border-2 border-gray-600 rounded-lg lg:text-lg lg:ml-3 hover:bg-white">Learn More</button>
                         </ul>
                         <div className="items-baseline pt-16 clients">
-                            <h6 className="flex items-center text-sm font-bold font-inter text-gray-500 uppercase text-body-color dark:text-white">
+                            <h6 className="flex items-center text-sm font-bold text-gray-500 uppercase font-inter text-body-color dark:text-white">
                                 Built using
                             </h6>
                             <div className="flex items-center py-6">
