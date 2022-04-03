@@ -1,5 +1,5 @@
 import React from "react"
-import Carousel from "./Carousel";
+import Carousel from "../components/Carousel";
 import 'tw-elements';
 import logo from "../images/skyline-logo.png"
 
