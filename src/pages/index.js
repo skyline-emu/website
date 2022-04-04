@@ -38,7 +38,7 @@ const IndexPage = () => {
       <div className="fixed z-50 bottom-10 right-10 ">
         <div class="flex space-x-2 justify-center">
           <div>
-            <button onClick={buttonHandler} type="button" class="inline-block rounded-full bg-blue-500 text-white leading-normal uppercase shadow-md hover:bg-blue-600 hover:shadow-lg focus:bg-blue-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-12 h-12">
+            <button onClick={buttonHandler} type="button" class="inline-block rounded-full bg-blue-500 text-white leading-normal uppercase shadow-md hover:bg-blue-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-12 h-12">
               <div className="flex justify-center">
                 {isDark ?
                   <svg

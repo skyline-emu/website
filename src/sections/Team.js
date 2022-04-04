@@ -13,7 +13,7 @@ const Team = () => {
                         </p>
                     </div>
 
-                    <div className="grid gap-6 text-center md:grid-cols-3">
+                    <div className="grid gap-6 pt-4 text-center md:grid-cols-3">
                         <div>
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
                                 <div className="overflow-hidden rounded-t-lg h-28"></div>
@@ -55,6 +55,48 @@ const Team = () => {
                                     <p className="mt-4 mb-4">
                                         hello friends, markus technologies in collaboration with iviar industries for qa brings to you today this Great better discord plugin to remove
                                     </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
+                                <div className="overflow-hidden rounded-t-lg h-28"></div>
+                                <div className="w-24 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
+                                    <img src="https://cdn.discordapp.com/attachments/755967134907236383/958845955829014598/Picsart_22-03-30_18-24-25-297.jpg"/>
+                                </div>
+                                <div className="p-6">
+                                    <h4 className="mb-4 text-2xl font-semibold text-blue-500">Just Billy</h4>
+                                    <hr />
+                                    <p className="mt-4 mb-4">
+                                        hello friends, markus technologies in collaboration with iviar industries for qa brings to you today this Great better discord plugin to remove                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
+                                <div className="overflow-hidden rounded-t-lg h-28"></div>
+                                <div className="w-24 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
+                                    <img src="https://cdn.discordapp.com/attachments/755967134907236383/958845955829014598/Picsart_22-03-30_18-24-25-297.jpg"/>
+                                </div>
+                                <div className="p-6">
+                                    <h4 className="mb-4 text-2xl font-semibold text-blue-500">Just Billy</h4>
+                                    <hr />
+                                    <p className="mt-4 mb-4">
+                                        hello friends, markus technologies in collaboration with iviar industries for qa brings to you today this Great better discord plugin to remove                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
+                                <div className="overflow-hidden rounded-t-lg h-28"></div>
+                                <div className="w-24 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
+                                    <img src="https://cdn.discordapp.com/attachments/755967134907236383/958845955829014598/Picsart_22-03-30_18-24-25-297.jpg"/>
+                                </div>
+                                <div className="p-6">
+                                    <h4 className="mb-4 text-2xl font-semibold text-blue-500">Just Billy</h4>
+                                    <hr />
+                                    <p className="mt-4 mb-4">
+                                        hello friends, markus technologies in collaboration with iviar industries for qa brings to you today this Great better discord plugin to remove                                    </p>
                                 </div>
                             </div>
                         </div>
