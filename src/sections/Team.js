@@ -13,7 +13,7 @@ const Team = () => {
                         </p>
                     </div>
 
-                    <div className="grid gap-6 pt-4 text-center md:grid-cols-3">
+                    <div className="grid gap-6 pt-4 text-center md:grid-cols-3" id="team">
                         <div>
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
                                 <div className="overflow-hidden rounded-t-lg h-28"></div>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import logo from "../images/skyline-logo.png"
 import Hamburger from 'hamburger-react'
+import {Link} from "react-scroll"
 
 const Navbar = () => {
 
@@ -27,16 +28,16 @@ const Navbar = () => {
                         <div className="hidden md:flex md:flex-row md:grow font-roboto">
                             <div className="flex items-baseline ml-10 space-x-4">
                                 <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md hover:text-blue-500 hover:font-bold dark:text-white dark:hover:text-blue-500" href="/#">
-                                    Home
+                                    <Link activeClass="active" to="home" spy={true} smooth={true} offset={-200} duration={500}>Home</Link>
                                 </a>
                                 <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md dark:text-white hover:font-bold hover:text-blue-500 dark:hover:text-blue-500" href="/#">
-                                    About
+                                    <Link activeClass="active" to="about" spy={true} smooth={true} offset={-200} duration={500}>About</Link>
                                 </a>
                                 <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md hover:text-blue-500 dark:text-white dark:hover:text-blue-500" href="/#">
-                                    Team
+                                    <Link activeClass="active" to="team" spy={true} smooth={true} offset={-200} duration={500}>Team</Link>
                                 </a>
                                 <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md hover:text-blue-500 hover:font-bold dark:text-white dark:hover:text-blue-500" href="/#">
-                                    Download
+                                    <Link activeClass="active" to="download" spy={true} smooth={true} offset={-200} duration={500}>Download</Link>
                                 </a>
                             </div>
                         </div>

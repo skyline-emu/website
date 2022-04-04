@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Landing = () => {
     return (
-        <div className="w-full pb-20 lg:h-full dark:bg-darkBackground">
+        <div className="w-full pb-20 lg:h-full dark:bg-darkBackground" id="home">
             <div className="px-8 mx-auto py-36 max-w-page">
                 <div className="flex flex-row">
                     <div className="w-full px-4 py-10 lg:w-6/12">
