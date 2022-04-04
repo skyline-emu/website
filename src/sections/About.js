@@ -1,14 +1,14 @@
 import React from "react"
-import "tw-elements"
+const elements = typeof window !== `undefined` ? require("tw-elements") : null
+
+
 import logo from "../images/skyline-logo.png"
-
-
 
 const About = () => {
 
     return (
 
-        <div className="w-full pb-32 lg:h-full dark:bg-darkBackground font-inter">
+        <div className="w-full pb-32 lg:h-full dark:bg-darkBackground font-inter" id="about">
             <div class="px-8 mx-auto max-w-page">
                 <div class="mx-auto max-w-6xl flex flex-col md:flex-row">
                     <div className="flex flex-col w-full mr-8 md:w-1/3">
