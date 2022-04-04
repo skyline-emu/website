@@ -51,7 +51,7 @@ const Landing = () => {
                                 </div>
                             </div>
                             <div class="flex space-x-2 justify-center ml-3">
-                                <button data-mdb-ripple="true" data-mdb-ripple-color="light" type="button" class="font-roboto inline-block px-8 py-3 border-2 border-blue-600 text-blue-600 font-medium text-sm leading-tight uppercase rounded-lg  focus:outline-none focus:ring-0 transition duration-150 ease-in-out hover:bg-blue-600 hover:text-white hover:border-blue-600 font-roboto">
+                                <button data-mdb-ripple="true" data-mdb-ripple-color="light" type="button" class="font-roboto inline-block px-8 py-3 border-2 border-blue-600 text-blue-600 font-medium text-sm leading-tight uppercase rounded-lg  focus:outline-none focus:ring-0 transition duration-150 ease-in-out hover:bg-blue-500 hover:text-white hover:border-blue-500">
                                     <Link activeClass="active" to="about" spy={true} smooth={true} offset={-200} duration={500}>Learn More</Link>
                                 </button>
                             </div>
