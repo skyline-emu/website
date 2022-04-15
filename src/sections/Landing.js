@@ -13,7 +13,7 @@ const Landing = () => {
                     <div className="w-full px-4 md:py-10 lg:w-6/12">
                     
                         <h2 class="md:hidden text-3xl font-extrabold leading-9 dark:text-white mb-5 flex flex-row md:justify-start justify-center">
-                            <img className="w-24 h-24 ml-3 border-2 border-black rounded-full dark:border-white" src={logo} alt="" />
+                            <img className="w-24 h-24 border-2 border-black rounded-full dark:border-white" src={logo} alt="" />
                         </h2>
 
 
