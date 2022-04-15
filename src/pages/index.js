@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar"
 import Landing from "../sections/Landing"
 import About from "../sections/About"
 import Team from "../sections/Team"
+import { Helmet } from "react-helmet"
 
 const IndexPage = () => {
 
@@ -15,11 +16,14 @@ const IndexPage = () => {
   return (
     <main className={isDark ? "dark" : "light"}>
 
-      <head>
+      <Helmet htmlAttributes={{ lang: 'en' }}>
         <title>Skyline - Nintendo Switch Emulator</title>
-        <meta name="description" content="Skyline is an open source and experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system."/>
-        <meta name="keywords" content="Emulator, Nintendo Switch™, Skyline, Android"/>
+        <meta name="description" content="Skyline is an open source and experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system." />
+        <meta name="keywords" content="Emulator, Nintendo Switch™, Skyline, Android" />
         <meta name="author" content="Skyline Team" />
+      </Helmet>
+
+      <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
