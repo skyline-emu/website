@@ -13,11 +13,11 @@ const About = () => {
             <div class="px-8 mx-auto max-w-page">
                 <div class="mx-auto max-w-6xl flex flex-col md:flex-row">
                     <div className="flex flex-col w-full mr-8 md:w-1/3">
-                        <h2 class="text-3xl font-extrabold leading-9 dark:text-white mb-4 flex flex-row">
+                        <h2 class="text-3xl font-extrabold leading-9 dark:text-white mb-4 flex flex-row md:justify-start justify-center">
                             About Skyline
                             <img className="w-10 h-10 ml-3 rounded-full" src={logo} alt="" />
                         </h2>
-                        <div class="mb-16 dark:text-white pr-16">
+                        <div class="mb-16 dark:text-white md:pr-16 pt-3 md:text-left text-center">
                             <p>
                                 hello friends, markus technologies in collaboration with iviar industries for qa brings to you today this Great better discord plugin to remove
                             </p>

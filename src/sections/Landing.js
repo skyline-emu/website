@@ -6,8 +6,8 @@ import { Link } from "react-scroll"
 
 const Landing = () => {
     return (
-        <div className="w-full pb-20 lg:h-full dark:bg-darkBackground" id="home">
-            <div className="px-8 mx-auto py-36 max-w-page">
+        <div className="w-full pb-0 md:pb-20 md:h-full dark:bg-darkBackground" id="home">
+            <div className="px-8 py-24 mx-auto md:py-36 max-w-page">
                 <div className="flex flex-row">
                     <div className="w-full px-4 py-10 lg:w-6/12">
                         {/* <h1 className="text-dark dark:text-white font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-3">
@@ -22,24 +22,24 @@ const Landing = () => {
                                     Open Source
                                 </p>
                             </div> */}
-                            <h2 className="max-w-lg mb-6 text-3xl font-bold leading-8 tracking-tight dark:text-white sm:text-4xl">
+                            <h2 className="max-w-lg mb-6 text-3xl font-bold leading-8 tracking-tight text-center dark:text-white sm:text-4xl md:text-left">
                                 Skyline
                                 {/* <br className="hidden md:block" /> your next{" "} */}
                                 <br></br>
-                                <span className="inline-block text-2xl text-blue-500">
+                                <span className="inline-block pt-2 text-2xl text-blue-500">
                                     Nintendo Switch™ Emulator for Android™
                                 </span>
                             </h2>
-                            <p className="text-base dark:text-white md:text-lg">
+                            <p className="text-base text-center dark:text-white md:text-lg md:text-left">
                                 Skyline is an open source and experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system.
                             </p>
                         </div>
-                        <ul className="flex flex-wrap items-center font-roboto">
+                        <ul className="flex flex-wrap items-center justify-center md:justify-start font-roboto">
                             {/* <button className="px-5 py-2 font-bold text-gray-100 uppercase transition-colors duration-700 transform bg-blue-500 border border-blue-500 rounded-lg lg:text-lg hover:text-blue-500 hover:bg-white hover:border-white">Download</button>
                             <button className="px-5 py-2 ml-2 font-bold text-blue-500 uppercase transition-colors duration-700 transform border-2 border-gray-600 rounded-lg lg:text-lg lg:ml-3 hover:bg-white">Learn More</button> */}
                             <div class="flex space-x-2 justify-center">
                                 <div>
-                                    <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" className="flex px-8 py-3 text-sm font-medium leading-normal text-white uppercase transition duration-150 ease-in-out bg-blue-500 rounded-lg shadow-md hover:bg-blue-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg align-center font-roboto">
+                                    <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" className="flex px-5 py-3 text-sm font-medium leading-normal text-white uppercase transition duration-150 ease-in-out bg-blue-500 rounded-lg shadow-md lg:px-8 hover:bg-blue-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg align-center font-roboto">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download"
                                             className="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                             <path fill="currentColor"
@@ -50,8 +50,8 @@ const Landing = () => {
                                     </button>
                                 </div>
                             </div>
-                            <div class="flex space-x-2 justify-center ml-3">
-                                <button data-mdb-ripple="true" data-mdb-ripple-color="light" type="button" class="font-roboto inline-block px-8 py-3 border-2 border-blue-600 text-blue-600 font-medium text-sm leading-tight uppercase rounded-lg  focus:outline-none focus:ring-0 transition duration-150 ease-in-out hover:bg-blue-500 hover:text-white hover:border-blue-500">
+                            <div class="flex space-x-2 justify-center ml-3 ">
+                                <button data-mdb-ripple="true" data-mdb-ripple-color="light" type="button" className="inline-block px-5 py-3 text-sm font-medium leading-tight text-blue-600 uppercase transition duration-150 ease-in-out border-2 border-blue-600 rounded-lg lg:px-8 font-roboto focus:outline-none focus:ring-0 hover:bg-blue-500 hover:text-white hover:border-blue-500">
                                     <Link activeClass="active" to="about" spy={true} smooth={true} offset={-200} duration={500}>Learn More</Link>
                                 </button>
                             </div>
