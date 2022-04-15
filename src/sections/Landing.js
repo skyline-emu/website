@@ -5,35 +5,21 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "react-scroll"
 import logo from "../images/skyline-logo.png"
 
-
 const Landing = () => {
     return (
         <div className="w-full pb-0 md:pb-20 md:h-full dark:bg-darkBackground" id="home">
             <div className="px-8 py-24 mx-auto md:py-36 max-w-page">
                 <div className="flex flex-row">
                     <div className="w-full px-4 md:py-10 lg:w-6/12">
-                        {/* <h1 className="text-dark dark:text-white font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-3">
-                            Open Source Nintendo Switch Emulator for Android
-                        </h1>
-                        <p className="text-base dark:text-white mb-8 text-body-color max-w-[480px]">
-                            Skyline is an experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system.
-                        </p> */}
-
-
+                    
                         <h2 class="md:hidden text-3xl font-extrabold leading-9 dark:text-white mb-5 flex flex-row md:justify-start justify-center">
                             <img className="w-24 h-24 ml-3 border-2 border-black rounded-full dark:border-white" src={logo} alt="" />
                         </h2>
 
 
                         <div className="mb-10 lg:mt-6 font-inter">
-                            {/* <div>
-                                <p className="inline-block py-px mb-4 text-xs font-semibold tracking-wider text-blue-500 uppercase rounded-full bg-teal-accent-400">
-                                    Open Source
-                                </p>
-                            </div> */}
                             <h2 className="max-w-lg mb-6 text-3xl font-bold leading-8 tracking-tight text-center dark:text-white sm:text-4xl md:text-left">
                                 Skyline
-                                {/* <br className="hidden md:block" /> your next{" "} */}
                                 <br></br>
                                 <span className="inline-block pt-3 text-2xl text-blue-500">
                                     Nintendo Switch™ Emulator for Android™
@@ -44,8 +30,6 @@ const Landing = () => {
                             </p>
                         </div>
                         <ul className="flex flex-wrap items-center justify-center md:justify-start font-roboto">
-                            {/* <button className="px-5 py-2 font-bold text-gray-100 uppercase transition-colors duration-700 transform bg-blue-500 border border-blue-500 rounded-lg lg:text-lg hover:text-blue-500 hover:bg-white hover:border-white">Download</button>
-                            <button className="px-5 py-2 ml-2 font-bold text-blue-500 uppercase transition-colors duration-700 transform border-2 border-gray-600 rounded-lg lg:text-lg lg:ml-3 hover:bg-white">Learn More</button> */}
                             <div class="flex space-x-2 justify-center">
                                 <div>
                                     <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" className="flex px-5 py-3 text-sm font-medium leading-normal text-white uppercase transition duration-150 ease-in-out bg-blue-500 rounded-lg shadow-md lg:px-8 hover:bg-blue-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg align-center font-roboto">
@@ -75,7 +59,6 @@ const Landing = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="hidden px-4 lg:flex"></div> */}
                     {/* Device Mockup created from <a href="https://deviceframes.com/templates/google-pixel-6">Google Pixel 6 mockups</a> */}
                     <div className="z-10 justify-center hidden w-full px-4 py-10 lg:w-6/12 lg:flex">
                         <span className="relative left-[26%]  top-[86%] justify-left align-bottom z-[-1]">
@@ -148,12 +131,7 @@ const Landing = () => {
                                 <circle cx="90.5" cy="90.5" r="2.5" fill="#de313f" />
                             </svg>
                         </span>
-                        {/* <img
-                            src={phone}
-                            className="w-[15rem] md:h-landingImg"
-                        /> */}
                         <StaticImage className="lg:w-[220px] w-[100px] h-auto" src="../images/phone.png" alt="Super Tux Cart Best Game" />
-
                     </div>
                 </div>
             </div>

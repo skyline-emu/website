@@ -6,7 +6,6 @@ import Team from "../sections/Team"
 
 const IndexPage = () => {
 
-
   const [isDark, setIsDark] = useState(true)
 
   const buttonHandler = () => {
@@ -14,15 +13,8 @@ const IndexPage = () => {
   }
 
   return (
-
-
     <main className={isDark ? "dark" : "light"}>
 
-      {/* <Helmet htmlAttributes={{ lang: 'en' }}>
-        <meta charSet="utf-8" />
-        <meta name="description" content="" />
-        <title>Skyline</title>
-      </Helmet> */}
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,7 +24,6 @@ const IndexPage = () => {
         <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
-
       </head>
 
       <div className="fixed z-50 bottom-10 right-10 ">
@@ -66,23 +57,11 @@ const IndexPage = () => {
         </div>
       </div>
 
-
-
       <Navbar />
       <Landing />
       <About />
       <Team/>
       {/* <Footer /> */}
-
-
-      {/*
-      
-      Inter is my suggestion for the website text, what you want for the logo is Rubik, roboto for buttons
-
-      Material design - unfocused, focused, and active as well as ripple
-      
-      */}
-
 
     </main>
   )
