@@ -1,30 +1,47 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby minimal starter
+    <a href="https://github.com/skyline-emu/skyline" target="_blank">
+        <img height="60%" width="60%" src="https://raw.github.com/skyline-emu/branding/master/banner/skyline-banner-rounded.png"><br>
+    </a>
+    <a href="https://discord.gg/XnbXNQM" target="_blank">
+        <img src="https://img.shields.io/discord/545842171459272705.svg?label=&logo=discord&logoColor=ffffff&color=5865F2&labelColor=404EED">
+    </a>
 </h1>
 
-## 🚀 Quick start
+<p align="center">
+   This repo is where the development of the website for the <a href="https://github.com/skyline-emu/"><b>Skyline Emulator</b></a> takes place.
+</p>
 
-1.  **Create a Gatsby site.**
+---
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+### Contact
+You can contact the core developers of Skyline at our **[Discord](https://discord.gg/XnbXNQM)**. If you have any questions, feel free to ask. It's also a good place to just keep up with the emulator, as most talk regarding development goes on over there.
+
+
+## 🚀 Contributor Guide
+
+Required Tools: 
+
+- Git: https://git-scm.com/
+- NPM: https://nodejs.org/en/
+- Gatsby: https://www.gatsbyjs.com/
+
+1.  **Clone the Repository.**
+
+    Use the git CLI to clone this repository
 
     ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    # clone this project's source
+    git clone 
     ```
 
 2.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into the site’s directory and start it up.
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    cd skyline-website/
+    npm install
+    gatsby develop
     ```
 
 3.  **Open the code and start customizing!**
@@ -46,9 +63,3 @@
     - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
