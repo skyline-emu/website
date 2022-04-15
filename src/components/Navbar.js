@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import logo from "../images/skyline-logo.png"
 import Hamburger from 'hamburger-react'
-import {Link} from "react-scroll"
+import { Link } from "react-scroll"
 
 const Navbar = () => {
 
@@ -108,16 +108,16 @@ const Navbar = () => {
                 <div hidden={navbarOpen ? false : true} className="lg:hidden md:hidden">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                         <a className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-gray-800 dark:hover:text-white" href="/#">
-                            Home
+                            <Link activeClass="active" to="home" spy={true} smooth={true} offset={-200} duration={500}>Home</Link>
                         </a>
                         <a className="block px-3 py-2 text-base font-medium text-gray-800 rounded-md dark:text-white" href="/#">
-                            Gallery
+                            <Link activeClass="active" to="about" spy={true} smooth={true} offset={-200} duration={500}>About</Link>
                         </a>
                         <a className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-gray-800 dark:hover:text-white" href="/#">
-                            Content
+                            <Link activeClass="active" to="team" spy={true} smooth={true} offset={-200} duration={500}>Team</Link>
                         </a>
                         <a className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-gray-800 dark:hover:text-white" href="/#">
-                            Contact
+                            <Link activeClass="active" to="download" spy={true} smooth={true} offset={-200} duration={500}>Download</Link>
                         </a>
                     </div>
                 </div>
