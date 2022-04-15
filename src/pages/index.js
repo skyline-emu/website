@@ -16,6 +16,10 @@ const IndexPage = () => {
     <main className={isDark ? "dark" : "light"}>
 
       <head>
+        <title>Skyline - Nintendo Switch Emulator</title>
+        <meta name="description" content="Skyline is an open source and experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system."/>
+        <meta name="keywords" content="Emulator, Nintendo Switch™, Skyline, Android"/>
+        <meta name="author" content="Skyline Team" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -60,7 +64,7 @@ const IndexPage = () => {
       <Navbar />
       <Landing />
       <About />
-      <Team/>
+      <Team />
       {/* <Footer /> */}
 
     </main>
