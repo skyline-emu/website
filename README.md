@@ -8,16 +8,16 @@
 </h1>
 
 <p align="center">
-   This repo is where the development of the website for the <a href="https://github.com/skyline-emu/"><b>Skyline Emulator</b></a> takes place.
+   <b>Skyline's website</b> is a modern statically generated website built using <b>React + Gatsby</b>, licensed under <a href=""><b>Choose License Here</b></a>.
 </p>
 
 ---
 
 ### Contact
-You can contact the core developers of Skyline at our **[Discord](https://discord.gg/XnbXNQM)**. If you have any questions, feel free to ask. It's also a good place to just keep up with the emulator, as most talk regarding development goes on over there.
+You can contact the developers of Skyline's website at our **[Discord](https://discord.gg/XnbXNQM)**. If you have any questions, feel free to ask. It's also a good place to just keep up with the emulator, as most talk regarding development goes on over there.
 
 
-## 🚀 Contributor Guide
+## 🚀 Building Guide
 
 Required Tools: 
 
