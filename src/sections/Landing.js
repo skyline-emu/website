@@ -3,19 +3,28 @@ import vulkan from "../images/vulkan.png"
 import vulkan_white from "../images/vulkan-white.png"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "react-scroll"
+import logo from "../images/skyline-logo.png"
+
 
 const Landing = () => {
     return (
         <div className="w-full pb-0 md:pb-20 md:h-full dark:bg-darkBackground" id="home">
             <div className="px-8 py-24 mx-auto md:py-36 max-w-page">
                 <div className="flex flex-row">
-                    <div className="w-full px-4 py-10 lg:w-6/12">
+                    <div className="w-full px-4 md:py-10 lg:w-6/12">
                         {/* <h1 className="text-dark dark:text-white font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-3">
                             Open Source Nintendo Switch Emulator for Android
                         </h1>
                         <p className="text-base dark:text-white mb-8 text-body-color max-w-[480px]">
                             Skyline is an experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system.
                         </p> */}
+
+
+                        <h2 class="md:hidden text-3xl font-extrabold leading-9 dark:text-white mb-5 flex flex-row md:justify-start justify-center">
+                            <img className="w-24 h-24 ml-3 border-2 border-black rounded-full dark:border-white" src={logo} alt="" />
+                        </h2>
+
+
                         <div className="mb-10 lg:mt-6 font-inter">
                             {/* <div>
                                 <p className="inline-block py-px mb-4 text-xs font-semibold tracking-wider text-blue-500 uppercase rounded-full bg-teal-accent-400">
@@ -26,7 +35,7 @@ const Landing = () => {
                                 Skyline
                                 {/* <br className="hidden md:block" /> your next{" "} */}
                                 <br></br>
-                                <span className="inline-block pt-2 text-2xl text-blue-500">
+                                <span className="inline-block pt-3 text-2xl text-blue-500">
                                     Nintendo Switch™ Emulator for Android™
                                 </span>
                             </h2>

@@ -9,7 +9,7 @@ const About = () => {
 
     return (
 
-        <div className="w-full pb-32 lg:h-full dark:bg-darkBackground font-inter" id="about">
+        <div className="w-full pb-12 md:pb-32 lg:h-full dark:bg-darkBackground font-inter" id="about">
             <div class="px-8 mx-auto max-w-page">
                 <div class="mx-auto max-w-6xl flex flex-col md:flex-row">
                     <div className="flex flex-col w-full mr-8 md:w-1/3">
@@ -23,7 +23,7 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                    <div class="w-full md:w-2/3">
+                    <div class="w-full md:w-2/3 md:text-left text-center">
                         <div class="mb-4">
                             <h3 class="text-xl font-semibold text-blue-500">
                                 Who created Skyline?
