@@ -18,7 +18,7 @@ Visual Studio Code comes with a code formatter in-built, this can fix minor mist
 
 ## JS
 ### Comments
-Only add comments if there is a workaround or some nonstandard code being used. Discretion of what constitutes nonstandard is up to the author. 
+Only add comments if there is a workaround or some nonstandard code being used. Discretion of what constitutes nonstandard is up to the author and maintainers. 
 * Use // in order to explain a section
 * If there is a need for a file wide comment, use the multiline comment /**/
 
