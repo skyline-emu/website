@@ -15,10 +15,11 @@ module.exports = {
       },
       "gatsby-plugin-react-helmet",
       "gatsby-plugin-sitemap",
+      "gatsby-plugin-netlify",
       {
         resolve: "gatsby-plugin-manifest",
         options: {
-          icon: "src/images/skyline-logo.png",
+          icon: "src/images/logo.png",
         },
       },
       "gatsby-plugin-sharp",
