@@ -5,6 +5,9 @@
     <a href="https://discord.gg/XnbXNQM" target="_blank">
         <img src="https://img.shields.io/discord/545842171459272705.svg?label=&logo=discord&logoColor=ffffff&color=5865F2&labelColor=404EED">
     </a>
+      <a href="https://app.netlify.com/sites/skyline-test/deploys" target="_blank">
+        <img src="https://api.netlify.com/api/v1/badges/97462e47-1d45-47cc-8e20-dcd3cbfd3635/deploy-status"><br>
+    </a>
 </h1>
 
 <p align="center">
