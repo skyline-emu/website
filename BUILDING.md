@@ -12,7 +12,7 @@ Required Tools:
 
     ```shell
     # clone this project's source
-    git clone 
+    git clone https://github.com/skyline-emu/website.git
     ```
 
 2.  **Start developing.**
@@ -21,7 +21,7 @@ Required Tools:
 
     ```shell
     cd website/
-    npm install
+    npm install --legacy-peer-deps
     gatsby develop
     ```
 
