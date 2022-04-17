@@ -5,7 +5,14 @@
     <a href="https://discord.gg/XnbXNQM" target="_blank">
         <img src="https://img.shields.io/discord/545842171459272705.svg?label=&logo=discord&logoColor=ffffff&color=5865F2&labelColor=404EED">
     </a>
+      <a href="https://app.netlify.com/sites/skyline-test/deploys" target="_blank">
+        <img src="https://api.netlify.com/api/v1/badges/97462e47-1d45-47cc-8e20-dcd3cbfd3635/deploy-status"><br>
+    </a>
 </h1>
+
+<p align="center">
+    <b><a href="CONTRIBUTING.md">Contributing Guide</a> • <a href="BUILDING.md">Building Guide</a></b>
+</p>
 
 <p align="center">
    <b>Skyline's website</b> is a modern statically generated website built using <b>React + Gatsby</b>, licensed under <a href=""><b>Choose License Here</b></a>.
@@ -17,49 +24,3 @@
 You can contact the developers of Skyline's website at our **[Discord](https://discord.gg/XnbXNQM)**. If you have any questions, feel free to ask. It's also a good place to just keep up with the emulator, as most talk regarding development goes on over there.
 
 
-## 🚀 Building Guide
-
-Required Tools: 
-
-- Git: https://git-scm.com/
-- NPM: https://nodejs.org/en/
-- Gatsby: https://www.gatsbyjs.com/
-
-1.  **Clone the Repository.**
-
-    Use the git CLI to clone this repository
-
-    ```shell
-    # clone this project's source
-    git clone 
-    ```
-
-2.  **Start developing.**
-
-    Navigate into the site’s directory and start it up.
-
-    ```shell
-    cd skyline-website/
-    npm install
-    gatsby develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
