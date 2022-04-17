@@ -31,4 +31,5 @@ Only add comments if there is a workaround or some nonstandard code being used. 
 * JS Methods: CamelCase.
 
 ### Spacing
-Only space JSX apart from each other if there is a clear readability benefit to it **AND** a comment required in order for other contributors to understand. JSX can be lengthy so no spacing is ideal.
+Only space JSX apart from each other if there is a clear readability benefit to it **AND** a comment required in order for other contributors to understand. JSX can be lengthy so no spacing is ideal. For conventional javascript, we generally follow the rule of **"Functional Spacing"**, that being spacing between chunks of code that do something functionally different while functionally similar blocks of code can be closer together.
+
