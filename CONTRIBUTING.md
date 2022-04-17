@@ -23,7 +23,7 @@ Only add comments if there is a workaround or some nonstandard code being used. 
 * If there is a need for a file wide comment, use the multiline comment /**/
 
 ### Naming rules
-* Images: Extremely brief names, try to keep within 3-4 characters.
+* Images: Extremely brief names, try to keep within 3-7 characters. Use SnakeCase.
 * Directories: One word, lowercase.
 * Components or Sections: PascalCase.
 * Pages: SnakeCase.
