@@ -16,6 +16,7 @@ Visual Studio Code comes with a code formatter in-built, this can fix minor mist
 - On Mac Shift + Option + F.
 - On Linux Ctrl + Shift + I.
 
+## JS
 ### Comments
 Only add comments if there is a workaround or some nonstandard code being used. Discretion of what constitutes nonstandard is up to the author. 
 * Use // in order to explain a section
