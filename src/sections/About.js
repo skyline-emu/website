@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../images/skyline-logo.png"
+import logo from "../images/logo.png"
 const elements = typeof window !== `undefined` ? require("tw-elements") : null
 
 const About = () => {

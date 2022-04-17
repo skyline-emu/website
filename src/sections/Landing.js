@@ -1,9 +1,9 @@
 import React from "react"
-import vulkan from "../images/vulkan.png"
-import vulkan_white from "../images/vulkan-white.png"
+import vulkan from "../images/vulk.png"
+import vulkan_white from "../images/vulk_li.png"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "react-scroll"
-import logo from "../images/skyline-logo.png"
+import logo from "../images/logo.png"
 
 const Landing = () => {
     return (
@@ -16,7 +16,7 @@ const Landing = () => {
                             <img className="w-24 h-24 border-2 border-black rounded-full dark:border-white" src={logo} alt="" />
                         </h2>
 
-
+        
                         <div className="mb-10 lg:mt-6 font-inter">
                             <h2 className="max-w-lg mb-6 text-3xl font-bold leading-8 tracking-tight text-center dark:text-white sm:text-4xl md:text-left">
                                 Skyline
@@ -131,7 +131,7 @@ const Landing = () => {
                                 <circle cx="90.5" cy="90.5" r="2.5" fill="#de313f" />
                             </svg>
                         </span>
-                        <StaticImage className="lg:w-[220px] w-[100px] h-auto" src="../images/phone.png" alt="Super Tux Cart Best Game" />
+                        <StaticImage className="lg:w-[220px] w-[100px] h-auto" src="../images/app.png" alt="app.png" placeholder="blurred"/>
                     </div>
                 </div>
             </div>

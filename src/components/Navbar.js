@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import logo from "../images/skyline-logo.png"
+import logo from "../images/logo.png"
 import Hamburger from 'hamburger-react'
 import { Link } from "react-scroll"
 
