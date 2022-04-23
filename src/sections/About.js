@@ -22,7 +22,7 @@ const About = () => {
                     <div class="w-full md:w-2/3 md:text-left text-center">
                         <div class="mb-4">
                             <h3 class="text-xl font-semibold text-blue-500">
-                                Who created Skyline?
+                                Who develops Skyline?
                             </h3>
                         </div>
                         <div class="mb-16 dark:text-white">
@@ -50,7 +50,7 @@ const About = () => {
                         </div>
                         <div class="mb-16 dark:text-white">
                             <p>
-                                As an open source project, the Skyline team greatly encourages contributions of any kinds. If you'd like to contribute, join the <a className="font-bold text-pink-500 underline" href="https://github.com/skyline-emu/">Discord</a> and
+                                As an open source project, the Skyline team greatly encourages contributions of any kinds. If you'd like to contribute, join the <a className="font-bold text-pink-500 underline" href="https://discord.gg/XnbXNQM">Discord</a> and
                                 read the <a className="font-bold text-pink-500 underline" href="https://github.com/skyline-emu/skyline/blob/master/CONTRIBUTING.md">Contributing Guide</a>
                             </p>
                         </div>
