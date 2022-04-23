@@ -67,7 +67,7 @@ const IndexPage = () => {
 
       <Navbar />
       <Landing />
-      <About />
+      <About/>
       <Team />
       {/* <Footer /> */}
 

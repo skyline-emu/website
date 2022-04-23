@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import logo from "../images/logo.png"
 import Hamburger from 'hamburger-react'
-import { Link } from "react-scroll"
 
 const Navbar = () => {
 
@@ -27,17 +26,14 @@ const Navbar = () => {
                         </div>
                         <div className="hidden md:flex md:flex-row md:grow font-roboto">
                             <div className="flex items-baseline ml-10 space-x-4">
-                                <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md hover:text-blue-500 hover:font-bold dark:text-white dark:hover:text-blue-500" href="/#">
-                                    <Link activeClass="active" to="home" spy={true} smooth={true} offset={-200} duration={500}>Home</Link>
+                                <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md dark:text-white hover:font-bold hover:text-blue-500 dark:hover:text-blue-500" href="#about">
+                                    About
                                 </a>
-                                <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md dark:text-white hover:font-bold hover:text-blue-500 dark:hover:text-blue-500" href="/#">
-                                    <Link activeClass="active" to="about" spy={true} smooth={true} offset={-200} duration={500}>About</Link>
+                                <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md hover:text-blue-500 dark:text-white dark:hover:text-blue-500" href="#team">
+                                    Team
                                 </a>
-                                <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md hover:text-blue-500 dark:text-white dark:hover:text-blue-500" href="/#">
-                                    <Link activeClass="active" to="team" spy={true} smooth={true} offset={-200} duration={500}>Team</Link>
-                                </a>
-                                <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md hover:text-blue-500 hover:font-bold dark:text-white dark:hover:text-blue-500" href="/#">
-                                    <Link activeClass="active" to="download" spy={true} smooth={true} offset={-200} duration={500}>Download</Link>
+                                <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md hover:text-blue-500 hover:font-bold dark:text-white dark:hover:text-blue-500" href="#download">
+                                    Download
                                 </a>
                             </div>
                         </div>
@@ -64,17 +60,14 @@ const Navbar = () => {
 
                 <div hidden={navbarOpen ? false : true} className="lg:hidden md:hidden">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        <a className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-gray-800 dark:hover:text-white" href="/#">
-                            <Link activeClass="active" to="home" spy={true} smooth={true} offset={-200} duration={500}>Home</Link>
+                        <a className="block px-3 py-2 text-base font-medium text-gray-800 rounded-md dark:text-white" href="#about">
+                            About
                         </a>
-                        <a className="block px-3 py-2 text-base font-medium text-gray-800 rounded-md dark:text-white" href="/#">
-                            <Link activeClass="active" to="about" spy={true} smooth={true} offset={-200} duration={500}>About</Link>
+                        <a className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-gray-800 dark:hover:text-white" href="#team">
+                            Team
                         </a>
-                        <a className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-gray-800 dark:hover:text-white" href="/#">
-                            <Link activeClass="active" to="team" spy={true} smooth={true} offset={-200} duration={500}>Team</Link>
-                        </a>
-                        <a className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-gray-800 dark:hover:text-white" href="/#">
-                            <Link activeClass="active" to="download" spy={true} smooth={true} offset={-200} duration={500}>Download</Link>
+                        <a className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-gray-800 dark:hover:text-white" href="#download">
+                            Download
                         </a>
                     </div>
                 </div>

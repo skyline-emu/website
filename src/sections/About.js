@@ -1,11 +1,10 @@
 import React from "react"
 import logo from "../images/logo.png"
-import { Link } from "react-scroll"
 const elements = typeof window !== `undefined` ? require("tw-elements") : null
 
 const About = () => {
     return (
-        <div className="w-full pb-12 md:pb-32 lg:h-full dark:bg-darkBackground font-inter" id="about">
+        <div className="w-full pb-12 md:pb-32 lg:h-full dark:bg-darkBackground font-inter"  id="about">
             <div class="px-8 mx-auto max-w-page">
                 <div class="mx-auto max-w-6xl flex flex-col md:flex-row">
                     <div className="flex flex-col w-full mr-8 md:w-1/3">
@@ -28,7 +27,7 @@ const About = () => {
                         <div class="mb-16 dark:text-white">
                             <p>
                                 The Skyline Project, while currently led by Mark, is composed of a team of open-source developers. See the&nbsp;
-                                <a className="font-bold text-pink-500 underline" href="/#"><Link activeClass="active" to="team" spy={true} smooth={true} offset={-200} duration={500}>Team</Link></a>
+                                <a className="font-bold text-pink-500 underline" href="/#">Team</a>
                                 &nbsp;section for more information.
 
                             </p>
