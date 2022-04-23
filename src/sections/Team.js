@@ -26,10 +26,10 @@ const Team = () => {
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
                                 <div className="h-24 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
-                                    <img src={mark}/>
+                                    <img alt="profile" src={mark}/>
                                 </div>
                                 <div className="p-6">
-                                    <h4 className="mb-4 text-2xl font-semibold text-blue-500">Mark</h4>
+                                    <a href="https://github.com/PixelyIon"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">Mark</h4></a>
                                     <p className="mt-4 mb-4">Lead Developer</p>
                                     {/* <a className="font-bold text-pink-500 underline" href="">Github</a> */}
                                 </div>
@@ -39,10 +39,10 @@ const Team = () => {
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
                                 <div className="h-24 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
-                                    <img src={billy}/>
+                                    <img alt="profile" src={billy}/>
                                 </div>
                                 <div className="p-6">
-                                    <h4 className="mb-4 text-2xl font-semibold text-blue-500">ByLaws</h4>
+                                <a href="https://github.com/bylaws"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">ByLaws</h4></a>
                                     <p className="mt-4 mb-4">Developer</p>
                                 </div>
                             </div>
@@ -51,10 +51,10 @@ const Team = () => {
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
                                 <div className="h-24 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
-                                    <img src={lynx}/>
+                                    <img alt="profile" src={lynx}/>
                                 </div>
                                 <div className="p-6">
-                                    <h4 className="mb-4 text-2xl font-semibold text-blue-500">Lynx</h4>
+                                <a href="https://github.com/lynxnb"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">Lynx</h4></a>
                                     <p className="mt-4 mb-4">
                                         Developer
                                     </p>
@@ -65,10 +65,10 @@ const Team = () => {
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
                                 <div className="h-24 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
-                                    <img src={mc}/>
+                                    <img alt="profile" src={mc}/>
                                 </div>
                                 <div className="p-6">
-                                    <h4 className="mb-4 text-2xl font-semibold text-blue-500">Blacky</h4>
+                                <a href="https://github.com/MCredstoner2004"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">Blacky</h4></a>
                                     <p className="mt-4 mb-4">Developer</p>
                                 </div>
                             </div>
@@ -77,10 +77,10 @@ const Team = () => {
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
                                 <div className="h-24 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
-                                    <img src={ducc}/>
+                                    <img alt="profile" src={ducc}/>
                                 </div>
                                 <div className="p-6">
-                                    <h4 className="mb-4 text-2xl font-semibold text-blue-500">ducc</h4>
+                                <a href="https://github.com/msoham123"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">ducc</h4></a>
                                     <p className="mt-4 mb-4">Web Developer</p>
                                 </div>
                             </div>
@@ -89,10 +89,10 @@ const Team = () => {
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
                                 <div className="h-24 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
-                                    <img src={glade}/>
+                                    <img alt="profile" src={glade}/>
                                 </div>
                                 <div className="p-6">
-                                    <h4 className="mb-4 text-2xl font-semibold text-blue-500">GalladeGuy</h4>
+                                <a href="https://github.com/GalladeGuy"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">GalladeGuy</h4></a>
                                     <p className="mt-4 mb-4">Community Manager</p>
                                 </div>
                             </div>
@@ -101,10 +101,10 @@ const Team = () => {
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
                                 <div className="h-24 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
-                                    <img src={king}/>
+                                    <img alt="profile" src={king}/>
                                 </div>
                                 <div className="p-6">
-                                    <h4 className="mb-4 text-2xl font-semibold text-blue-500">King</h4>
+                                <a href="https://github.com/MrKing202981"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">King</h4></a>
                                     <p className="mt-4 mb-4">Community Manager</p>
                                 </div>
                             </div>
