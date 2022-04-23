@@ -1,5 +1,6 @@
 import React from "react"
 import logo from "../images/logo.png"
+import { Link } from "react-scroll"
 const elements = typeof window !== `undefined` ? require("tw-elements") : null
 
 const About = () => {
@@ -14,7 +15,7 @@ const About = () => {
                         </h2>
                         <div class="mb-16 dark:text-white md:pr-16 pt-3 md:text-left text-center">
                             <p>
-                                hello friends, markus technologies in collaboration with iviar industries for qa brings to you today this Great better discord plugin to remove
+                                Skyline is designed to provide an accurate, performant, and user-friendly emulation experience through an ARM Compatibility Layer and System Emulation.
                             </p>
                         </div>
                     </div>
@@ -26,7 +27,10 @@ const About = () => {
                         </div>
                         <div class="mb-16 dark:text-white">
                             <p>
-                                hello friends, markus technologies in collaboration with iviar industries for qa brings to you today this Great better discord plugin to remove
+                                The Skyline project, while currently led by Mark, is composed of a team of open-source developers. See the
+                                <a className="text-pink-500" href="/#"><Link activeClass="active" to="team" spy={true} smooth={true} offset={-200} duration={500}> Team </Link></a>
+                                section for more information.
+
                             </p>
                         </div>
                         <div class="mb-4">
@@ -36,7 +40,7 @@ const About = () => {
                         </div>
                         <div class="mb-16 dark:text-white">
                             <p>
-                                hello friends, markus technologies in collaboration with iviar industries for qa brings to you today this Great better discord plugin to remove
+                                The Nintendo Switch™ system software is codenamed Horizon. Skyline is a synonym and alludes to that software.
                             </p>
                         </div>
                         <div class="mb-4 text-blue-500">
@@ -46,7 +50,8 @@ const About = () => {
                         </div>
                         <div class="mb-16 dark:text-white">
                             <p>
-                                hello friends, markus technologies in collaboration with iviar industries for qa brings to you today this Great better discord plugin to remove
+                                As an open source project, the Skyline team greatly encourages contributions of any kinds. If you'd like to contribute, join the <a className="text-pink-500" href="https://github.com/skyline-emu/">Discord</a> and
+                                read the <a className="text-pink-500" href="https://github.com/skyline-emu/skyline/blob/master/CONTRIBUTING.md">Contributing Guide</a>
                             </p>
                         </div>
                     </div>
