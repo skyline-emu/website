@@ -27,9 +27,9 @@ const About = () => {
                         </div>
                         <div class="mb-16 dark:text-white">
                             <p>
-                                The Skyline project, while currently led by Mark, is composed of a team of open-source developers. See the
-                                <a className="text-pink-500" href="/#"><Link activeClass="active" to="team" spy={true} smooth={true} offset={-200} duration={500}> Team </Link></a>
-                                section for more information.
+                                The Skyline Project, while currently led by Mark, is composed of a team of open-source developers. See the&nbsp;
+                                <a className="text-pink-500 underline" href="/#"><Link activeClass="active" to="team" spy={true} smooth={true} offset={-200} duration={500}>Team</Link></a>
+                                &nbsp;section for more information.
 
                             </p>
                         </div>
@@ -50,8 +50,8 @@ const About = () => {
                         </div>
                         <div class="mb-16 dark:text-white">
                             <p>
-                                As an open source project, the Skyline team greatly encourages contributions of any kinds. If you'd like to contribute, join the <a className="text-pink-500" href="https://github.com/skyline-emu/">Discord</a> and
-                                read the <a className="text-pink-500" href="https://github.com/skyline-emu/skyline/blob/master/CONTRIBUTING.md">Contributing Guide</a>
+                                As an open source project, the Skyline team greatly encourages contributions of any kinds. If you'd like to contribute, join the <a className="text-pink-500 underline" href="https://github.com/skyline-emu/">Discord</a> and
+                                read the <a className="text-pink-500 underline" href="https://github.com/skyline-emu/skyline/blob/master/CONTRIBUTING.md">Contributing Guide</a>
                             </p>
                         </div>
                     </div>
