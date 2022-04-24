@@ -4,6 +4,7 @@ import Landing from "../sections/Landing"
 import About from "../sections/About"
 import Team from "../sections/Team"
 import { Helmet } from "react-helmet"
+import Download from "../sections/Download"
 
 const IndexPage = () => {
 
@@ -69,7 +70,7 @@ const IndexPage = () => {
       <Landing />
       <About/>
       <Team />
-      {/* <Footer /> */}
+      <Download />
 
     </main>
   )

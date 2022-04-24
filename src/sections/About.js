@@ -27,7 +27,7 @@ const About = () => {
                         <div class="mb-16 dark:text-white">
                             <p>
                                 The Skyline Project, while currently led by Mark, is composed of a team of open-source developers. See the&nbsp;
-                                <a className="font-bold text-pink-500 underline" href="/#">Team</a>
+                                <a className="font-bold text-pink-500 underline" href="#team">Team</a>
                                 &nbsp;section for more information.
 
                             </p>
