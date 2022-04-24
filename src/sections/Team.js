@@ -6,6 +6,7 @@ import mc from "../images/mc.webp"
 import ducc from "../images/ducc.webp"
 import glade from "../images/glade.webp"
 import king from "../images/king.webp"
+import will from "../images/will.webp"
 
 
 const Team = () => {
@@ -105,6 +106,18 @@ const Team = () => {
                                 </div>
                                 <div className="p-6">
                                 <a href="https://github.com/MrKing202981"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">King</h4></a>
+                                    <p className="mt-4 mb-4">Community Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
+                                <div className="h-24 overflow-hidden rounded-t-lg"></div>
+                                <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
+                                    <img alt="profile" src={will}/>
+                                </div>
+                                <div className="p-6">
+                                <a href="https://github.com/MrKing202981"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">WillFaustCuber</h4></a>
                                     <p className="mt-4 mb-4">Community Manager</p>
                                 </div>
                             </div>
