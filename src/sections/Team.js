@@ -25,7 +25,7 @@ const Team = () => {
                     <div className="grid gap-6 pt-4 text-center md:grid-cols-4" id="team">
                         <div>
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
-                                <div className="h-24 overflow-hidden rounded-t-lg"></div>
+                                <div className="h-20 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
                                     <img alt="profile" src={mark}/>
                                 </div>
@@ -38,7 +38,7 @@ const Team = () => {
                         </div>
                         <div>
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
-                                <div className="h-24 overflow-hidden rounded-t-lg"></div>
+                                <div className="h-20 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
                                     <img alt="profile" src={billy}/>
                                 </div>
@@ -50,7 +50,7 @@ const Team = () => {
                         </div>
                         <div>
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
-                                <div className="h-24 overflow-hidden rounded-t-lg"></div>
+                                <div className="h-20 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
                                     <img alt="profile" src={lynx}/>
                                 </div>
@@ -64,7 +64,7 @@ const Team = () => {
                         </div>
                         <div>
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
-                                <div className="h-24 overflow-hidden rounded-t-lg"></div>
+                                <div className="h-20 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
                                     <img alt="profile" src={mc}/>
                                 </div>
@@ -76,7 +76,7 @@ const Team = () => {
                         </div>
                         <div>
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
-                                <div className="h-24 overflow-hidden rounded-t-lg"></div>
+                                <div className="h-20 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
                                     <img alt="profile" src={ducc}/>
                                 </div>
@@ -88,7 +88,7 @@ const Team = () => {
                         </div>
                         <div>
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
-                                <div className="h-24 overflow-hidden rounded-t-lg"></div>
+                                <div className="h-20 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
                                     <img alt="profile" src={glade}/>
                                 </div>
@@ -100,7 +100,7 @@ const Team = () => {
                         </div>
                         <div>
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
-                                <div className="h-24 overflow-hidden rounded-t-lg"></div>
+                                <div className="h-20 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
                                     <img alt="profile" src={king}/>
                                 </div>
@@ -112,7 +112,7 @@ const Team = () => {
                         </div>
                         <div>
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
-                                <div className="h-24 overflow-hidden rounded-t-lg"></div>
+                                <div className="h-20 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
                                     <img alt="profile" src={will}/>
                                 </div>
@@ -124,7 +124,7 @@ const Team = () => {
                         </div>
                         <div>
                             <div className="block bg-white rounded-lg shadow-lg dark:bg-zinc-900 dark:text-white">
-                                <div className="h-24 overflow-hidden rounded-t-lg"></div>
+                                <div className="h-20 overflow-hidden rounded-t-lg"></div>
                                 <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
                                     <img alt="profile" src={ivar}/>
                                 </div>
