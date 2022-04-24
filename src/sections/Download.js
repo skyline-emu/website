@@ -68,7 +68,7 @@ const Download = () => {
                             <div class="carousel-item active relative float-left w-full">
                                 <img
                                     src="https://media.discordapp.net/attachments/546432817962156034/931251395837964348/Screenshot_20220114-011932103.jpg"
-                                    class="block w-[1216px] h-[537px]"
+                                    class="block w-[1216px] h-[268.5px] md:h-[537px]"
                                     alt="..."
                                 />
                                 <div class="carousel-caption hidden md:block absolute text-center bg-white dark:bg-zinc-900 dark:text-white text-black rounded-lg">
@@ -79,7 +79,7 @@ const Download = () => {
                             <div class="carousel-item relative float-left w-full">
                                 <img
                                     src="https://cdn.discordapp.com/attachments/546432817962156034/967374268839125062/Screenshot_2022-04-23-16-09-28-90_fcf072b9e4efc4ce5ca3e36691a7c3c6.jpg?width=1216&height=537"
-                                    class="block w-[1216px] h-[537px]"
+                                    class="block w-[1216px] h-[268.5px] md:h-[537px]"
                                     alt="..."
                                 />
                                 <div class="carousel-caption hidden md:block absolute text-center bg-white dark:bg-zinc-900 dark:text-white text-black rounded-lg ">
@@ -90,7 +90,7 @@ const Download = () => {
                             <div class="carousel-item relative float-left w-full">
                                 <img
                                     src="https://cdn.discordapp.com/attachments/546432817962156034/967374971183718460/Screenshot_2022-04-23-16-12-32-47_fcf072b9e4efc4ce5ca3e36691a7c3c6.jpg"
-                                    class="block w-[1216px] h-[537px]"
+                                    class="block w-[1216px] h-[268.5px] md:h-[537px]"
                                     alt="..."
                                 />
                                 <div class="carousel-caption hidden md:block absolute text-center bg-white dark:bg-zinc-900 dark:text-white text-black rounded-lg">
