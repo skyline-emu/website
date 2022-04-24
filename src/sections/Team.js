@@ -117,7 +117,7 @@ const Team = () => {
                                     <img alt="profile" src={will}/>
                                 </div>
                                 <div className="p-6">
-                                <a href="https://github.com/MrKing202981"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">WillFaustCuber</h4></a>
+                                <a href="https://github.com/willfaust/"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">WillFaustCuber</h4></a>
                                     <p className="mt-4 mb-4">Community Manager</p>
                                 </div>
                             </div>
