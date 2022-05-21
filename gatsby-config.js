@@ -41,5 +41,6 @@ module.exports = {
         __key: "pages",
       },
     ],
+    pathPrefix: "/website",
   };
   
