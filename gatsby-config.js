@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-      siteUrl: "https://example.com",
+      siteUrl: "https://skyline-emu.one/",
       title: "Skyline - Open Source Emulator",
       description: "Skyline is an open source Nintendo Switch Emulator.",
       author: "Put authors here later",
@@ -40,6 +40,12 @@ module.exports = {
         },
         __key: "pages",
       },
+      {
+        resolve: 'gatsby-plugin-robots-txt',
+        options: {
+          configFile: 'robots-txt.config.js'
+        }
+      }
     ],
     pathPrefix: "/website",
   };
