@@ -1,3 +1,9 @@
+/**
+ * @license
+ * Copyright © 2022 Skyline Team and Contributors (https://github.com/skyline-emu/)
+ * SPDX-License-Identifier: BSD-2-Clause
+ */
+
 import React from "react"
 import logo from "../images/logo.png"
 const elements = typeof window !== `undefined` ? require("tw-elements") : null

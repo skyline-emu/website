@@ -1,3 +1,9 @@
+/**
+ * @license
+ * Copyright © 2022 Skyline Team and Contributors (https://github.com/skyline-emu/)
+ * SPDX-License-Identifier: BSD-2-Clause
+ */
+
 import React from "react"
 import vulkan from "../images/vulk.png"
 import vulkan_white from "../images/vulk_li.png"

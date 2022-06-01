@@ -1,3 +1,9 @@
+/**
+ * @license
+ * Copyright © 2022 Skyline Team and Contributors (https://github.com/skyline-emu/)
+ * SPDX-License-Identifier: BSD-2-Clause
+ */
+
 import React, { useState } from "react"
 import Navbar from "../components/Navbar"
 import Landing from "../sections/Landing"
