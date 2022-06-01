@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-   <b>Skyline's website</b> is a modern statically generated website built using <b>React + Gatsby</b>, licensed under <a href=""><b>Choose License Here</b></a>.
+   <b>Skyline's website</b> is a modern statically generated website built using <b>React + Gatsby</b>, licensed under <a href="LICENSE.md"><b>BSD-3-Clause</b></a>.
 </p>
 
 ---
