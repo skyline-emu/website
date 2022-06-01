@@ -5,8 +5,8 @@
  */
 
 import React from "react"
-import vulkan from "../images/vulk.png"
-import vulkan_white from "../images/vulk_li.png"
+import vulkan from "../images/vk.png"
+import vulkan_white from "../images/vk_light.png"
 import { StaticImage } from "gatsby-plugin-image"
 import logo from "../images/logo.png"
 
