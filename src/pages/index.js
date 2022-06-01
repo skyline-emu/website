@@ -76,7 +76,8 @@ const IndexPage = () => {
       <Landing />
       <About/>
       <Team />
-      <Download />
+      {/* <Download /> */}
+      
 
     </main>
   )

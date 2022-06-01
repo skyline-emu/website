@@ -38,9 +38,9 @@ const Navbar = () => {
                                 <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md hover:text-blue-500 dark:text-white dark:hover:text-blue-500" href="#team">
                                     Team
                                 </a>
-                                <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md hover:text-blue-500 hover:font-bold dark:text-white dark:hover:text-blue-500" href="#download">
+                                {/* <a className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md hover:text-blue-500 hover:font-bold dark:text-white dark:hover:text-blue-500" href="#download">
                                     Download
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                         <div className="hidden lg:block md:block">
@@ -72,9 +72,9 @@ const Navbar = () => {
                         <a className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-gray-800 dark:hover:text-white" href="#team">
                             Team
                         </a>
-                        <a className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-gray-800 dark:hover:text-white" href="#download">
+                        {/* <a className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-gray-800 dark:hover:text-white" href="#download">
                             Download
-                        </a>
+                        </a> */}
                     </div>
                 </div>
                 

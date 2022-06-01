@@ -36,7 +36,7 @@ const Landing = () => {
                         </div>
                         <ul className="flex flex-wrap items-center justify-center md:justify-start font-roboto">
                             <div class="flex space-x-2 justify-center">
-                                <a href="#download" data-mdb-ripple="true" data-mdb-ripple-color="light" className="flex px-5 py-3 text-sm font-medium leading-normal text-white uppercase transition duration-150 ease-in-out bg-blue-500 rounded-lg shadow-md lg:px-8 hover:bg-blue-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg align-center font-roboto">
+                                <a href="https://download.skyline-emu.one" data-mdb-ripple="true" data-mdb-ripple-color="light" className="flex px-5 py-3 text-sm font-medium leading-normal text-white uppercase transition duration-150 ease-in-out bg-blue-500 rounded-lg shadow-md lg:px-8 hover:bg-blue-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg align-center font-roboto">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download"
                                         className="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                         <path fill="currentColor"
