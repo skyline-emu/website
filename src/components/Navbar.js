@@ -69,7 +69,7 @@ const Navbar = () => {
                         <a className="block px-3 py-2 text-base font-medium text-gray-800 rounded-md dark:text-white" href="#about">
                             About
                         </a>
-                        <a className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-gray-800 dark:hover:text-white" href="#team">
+                        <a className="block px-3 py-2 text-base font-medium text-gray-800 rounded-md dark:text-white" href="#team">
                             Team
                         </a>
                         {/* <a className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-gray-800 dark:hover:text-white" href="#download">
