@@ -12,7 +12,7 @@ import config from "../config";
 const Team = () => {
     return (
         <div className="w-full pb-20 lg:h-full dark:bg-darkBackground font-inter">
-            <div class="px-8 mx-auto max-w-page">
+            <div className="px-8 mx-auto max-w-page">
                 <div className="mb-20">
                     <div className="mx-auto text-center md:max-w-xl lg:max-w-3xl">
                         <h3 className="mb-6 text-3xl font-bold text-black dark:text-white">Our Team</h3>
