@@ -9,7 +9,7 @@ module.exports = {
       siteUrl: "https://skyline-emu.one/",
       title: "Skyline - Open Source Emulator",
       description: "Skyline is an open source Nintendo Switch Emulator",
-      author: "The Skyline Team",
+      author: "Skyline Team and Contributors",
     },
     plugins: [
       "gatsby-plugin-image",
