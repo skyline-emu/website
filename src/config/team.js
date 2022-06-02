@@ -24,7 +24,7 @@ export const team = [
         title: "Developer",
     },
     {
-        name: "Blacky", 
+        name: "MC", 
         avatar: "https://avatars.githubusercontent.com/u/63514060", 
         github: "https://github.com/MCredstoner2004", 
         title: "Developer",
