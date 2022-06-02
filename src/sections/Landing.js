@@ -9,6 +9,7 @@ import vulkan from "../images/vk.png"
 import vulkan_white from "../images/vk_light.png"
 import { StaticImage } from "gatsby-plugin-image"
 import logo from "../images/logo.png"
+import CustomLink from "../components/CustomLink"
 
 const Landing = () => {
     return (
@@ -36,7 +37,7 @@ const Landing = () => {
                         </div>
                         <ul className="flex flex-wrap items-center justify-center md:justify-start font-roboto">
                             <div class="flex space-x-2 justify-center">
-                                <a href="https://download.skyline-emu.one" data-mdb-ripple="true" data-mdb-ripple-color="light" className="flex px-5 py-3 text-sm font-medium leading-normal text-white uppercase transition duration-150 ease-in-out bg-blue-500 rounded-lg shadow-md lg:px-8 hover:bg-blue-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg align-center font-roboto">
+                                <CustomLink href="https://download.skyline-emu.one" data-mdb-ripple="true" data-mdb-ripple-color="light" className="flex px-5 py-3 text-sm font-medium leading-normal text-white uppercase transition duration-150 ease-in-out bg-blue-500 rounded-lg shadow-md lg:px-8 hover:bg-blue-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg align-center font-roboto">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download"
                                         className="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                         <path fill="currentColor"
@@ -44,12 +45,12 @@ const Landing = () => {
                                         </path>
                                     </svg>
                                     Download
-                                </a>
+                                </CustomLink>
                             </div>
                             <div class="flex space-x-2 justify-center ml-3">
-                                <a href="#about" data-mdb-ripple="true" data-mdb-ripple-color="light" type="button" className="inline-block px-5 py-3 text-sm font-medium leading-tight text-blue-600 uppercase transition duration-150 ease-in-out border-2 border-blue-600 rounded-lg lg:px-8 font-roboto focus:outline-none focus:ring-0 hover:bg-blue-500 hover:text-white hover:border-blue-500">
+                                <CustomLink href="#about" data-mdb-ripple="true" data-mdb-ripple-color="light" type="button" className="inline-block px-5 py-3 text-sm font-medium leading-tight text-blue-600 uppercase transition duration-150 ease-in-out border-2 border-blue-600 rounded-lg lg:px-8 font-roboto focus:outline-none focus:ring-0 hover:bg-blue-500 hover:text-white hover:border-blue-500">
                                     Learn More
-                                </a>
+                                </CustomLink>
                             </div>
                         </ul>
                         <div className="items-baseline pt-16 clients">
