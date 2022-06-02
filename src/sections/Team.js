@@ -14,6 +14,7 @@ import glade from "../images/glade.webp"
 import king from "../images/king.webp"
 import will from "../images/will.webp"
 import ivar from "../images/ivar.webp"
+import CustomLink from "../components/CustomLink"
 
 const Team = () => {
     return (
@@ -36,9 +37,9 @@ const Team = () => {
                                     <img alt="profile" src={mark}/>
                                 </div>
                                 <div className="p-6">
-                                    <a href="https://github.com/PixelyIon"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">Mark</h4></a>
+                                    <CustomLink href="https://github.com/PixelyIon"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">Mark</h4></CustomLink>
                                     <p className="mt-4 mb-4">Lead Developer</p>
-                                    {/* <a className="font-bold text-pink-500 underline" href="">Github</a> */}
+                                    {/* <CustomLink className="font-bold text-pink-500 underline" href="">Github</CustomLink> */}
                                 </div>
                             </div>
                         </div>
@@ -49,7 +50,7 @@ const Team = () => {
                                     <img alt="profile" src={billy}/>
                                 </div>
                                 <div className="p-6">
-                                <a href="https://github.com/bylaws"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">ByLaws</h4></a>
+                                <CustomLink href="https://github.com/bylaws"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">ByLaws</h4></CustomLink>
                                     <p className="mt-4 mb-4">Developer</p>
                                 </div>
                             </div>
@@ -61,7 +62,7 @@ const Team = () => {
                                     <img alt="profile" src={lynx}/>
                                 </div>
                                 <div className="p-6">
-                                <a href="https://github.com/lynxnb"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">Lynx</h4></a>
+                                <CustomLink href="https://github.com/lynxnb"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">Lynx</h4></CustomLink>
                                     <p className="mt-4 mb-4">
                                         Developer
                                     </p>
@@ -75,7 +76,7 @@ const Team = () => {
                                     <img alt="profile" src={mc}/>
                                 </div>
                                 <div className="p-6">
-                                <a href="https://github.com/MCredstoner2004"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">Blacky</h4></a>
+                                <CustomLink href="https://github.com/MCredstoner2004"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">Blacky</h4></CustomLink>
                                     <p className="mt-4 mb-4">Developer</p>
                                 </div>
                             </div>
@@ -87,7 +88,7 @@ const Team = () => {
                                     <img alt="profile" src={ducc}/>
                                 </div>
                                 <div className="p-6">
-                                <a href="https://github.com/msoham123"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">ducc</h4></a>
+                                <CustomLink href="https://github.com/msoham123"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">ducc</h4></CustomLink>
                                     <p className="mt-4 mb-4">Web Developer</p>
                                 </div>
                             </div>
@@ -99,7 +100,7 @@ const Team = () => {
                                     <img alt="profile" src={glade}/>
                                 </div>
                                 <div className="p-6">
-                                <a href="https://github.com/GalladeGuy"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">GalladeGuy</h4></a>
+                                <CustomLink href="https://github.com/GalladeGuy"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">GalladeGuy</h4></CustomLink>
                                     <p className="mt-4 mb-4">Community Manager</p>
                                 </div>
                             </div>
@@ -111,7 +112,7 @@ const Team = () => {
                                     <img alt="profile" src={king}/>
                                 </div>
                                 <div className="p-6">
-                                <a href="https://github.com/MrKing202981"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">King</h4></a>
+                                <CustomLink href="https://github.com/MrKing202981"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">King</h4></CustomLink>
                                     <p className="mt-4 mb-4">Community Manager</p>
                                 </div>
                             </div>
@@ -123,7 +124,7 @@ const Team = () => {
                                     <img alt="profile" src={will}/>
                                 </div>
                                 <div className="p-6">
-                                <a href="https://github.com/willfaust/"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">WillFaustCuber</h4></a>
+                                <CustomLink href="https://github.com/willfaust/"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">WillFaustCuber</h4></CustomLink>
                                     <p className="mt-4 mb-4">Community Manager</p>
                                 </div>
                             </div>
@@ -135,7 +136,7 @@ const Team = () => {
                                     <img alt="profile" src={ivar}/>
                                 </div>
                                 <div className="p-6">
-                                <a href="https://github.com/IvarWithoutBones"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">Ivar</h4></a>
+                                <CustomLink href="https://github.com/IvarWithoutBones"><h4 className="mb-4 text-2xl font-bold text-pink-500 underline">Ivar</h4></CustomLink>
                                     <p className="mt-4 mb-4">Community Manager</p>
                                 </div>
                             </div>
