@@ -11,7 +11,7 @@ import config from "../config";
 
 const Team = () => {
     return (
-        <div className="w-full pb-20 lg:h-full dark:bg-darkBackground font-inter">
+        <div className="w-full pb-20 lg:h-full dark:bg-darkBackground font-inter" id="team">
             <div className="px-8 mx-auto max-w-page">
                 <div className="mb-20">
                     <div className="mx-auto text-center md:max-w-xl lg:max-w-3xl">
@@ -20,7 +20,7 @@ const Team = () => {
                             The Skyline Team is composed of passionate open source contributors from all around the word.
                         </p>
                     </div>
-                    <div className="grid gap-6 pt-4 text-center md:grid-cols-4" id="team">
+                    <div className="grid gap-6 pt-4 text-center md:grid-cols-4">
                         {config.team.map((member, key) => <TeamCard {...{...member, key}} />)}
                     </div>
                 </div>
