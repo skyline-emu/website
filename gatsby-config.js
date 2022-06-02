@@ -8,8 +8,8 @@ module.exports = {
     siteMetadata: {
       siteUrl: "https://skyline-emu.one/",
       title: "Skyline - Open Source Emulator",
-      description: "Skyline is an open source Nintendo Switch Emulator.",
-      author: "Put authors here later",
+      description: "Skyline is an open source Nintendo Switch Emulator",
+      author: "The Skyline Team",
     },
     plugins: [
       "gatsby-plugin-image",
@@ -53,6 +53,5 @@ module.exports = {
         }
       }
     ],
-    pathPrefix: "/website",
   };
   
