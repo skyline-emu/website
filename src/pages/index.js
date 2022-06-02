@@ -11,7 +11,8 @@ import About from "../sections/About"
 import Team from "../sections/Team"
 import { Helmet } from "react-helmet"
 import { useLocalStorage } from "react-use"
-import Download from "../sections/Download"
+
+// import Download from "../sections/Download"
 
 const IndexPage = () => {
 
@@ -43,13 +44,13 @@ const IndexPage = () => {
       </head>
 
       <div className="fixed z-50 bottom-10 right-10 ">
-        <div class="flex space-x-2 justify-center">
+        <div className="flex space-x-2 justify-center">
           <div>
-            <button onClick={buttonHandler} type="button" class="inline-block rounded-full bg-blue-500 text-white leading-normal uppercase shadow-md hover:bg-blue-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-12 h-12">
+            <button onClick={buttonHandler} type="button" className="inline-block rounded-full bg-blue-500 text-white leading-normal uppercase shadow-md hover:bg-blue-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-12 h-12">
               <div className="flex justify-center">
                 {isDark ?
                   <svg
-                    class="w-5 h-5 block"
+                    className="w-5 h-5 block"
                     fill="white"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +59,7 @@ const IndexPage = () => {
                     />
                   </svg> :
                   <svg
-                    class="w-5 h-5 block"
+                    className="w-5 h-5 block"
                     fill="white"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -78,8 +79,6 @@ const IndexPage = () => {
       <About/>
       <Team />
       {/* <Download /> */}
-      
-
     </main>
   )
 }

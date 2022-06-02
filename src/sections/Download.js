@@ -10,7 +10,7 @@ import CustomLink from "../components/CustomLink";
 const Download = () => {
     return (
         <div className="w-full pb-20 lg:h-full dark:bg-darkBackground font-inter" id="download">
-            <div class="px-8 mx-auto max-w-page">
+            <div className="px-8 mx-auto max-w-page">
 
                 <div className="mb-20">
                     <div className="mx-auto text-center md:max-w-xl lg:max-w-3xl">
@@ -21,7 +21,7 @@ const Download = () => {
                     </div>
 
                     <ul className="flex flex-wrap items-center justify-center my-12 font-roboto">
-                        <div class="flex space-x-2 justify-center">
+                        <div className="flex space-x-2 justify-center">
                             <CustomLink href="https://github.com/skyline-emu/skyline/actions" data-mdb-ripple="true" data-mdb-ripple-color="light" className="flex px-5 py-3 text-sm font-medium leading-normal text-white uppercase transition duration-150 ease-in-out bg-green-500 rounded-lg shadow-md lg:px-8 hover:bg-green-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg align-center font-roboto">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download"
                                     className="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -33,7 +33,7 @@ const Download = () => {
                             </CustomLink>
                         </div>
 
-                        <div class="flex space-x-2 justify-center ml-3">
+                        <div className="flex space-x-2 justify-center ml-3">
                             <CustomLink href="" data-mdb-ripple="true" data-mdb-ripple-color="light" className="flex px-5 py-3 text-sm font-medium leading-normal text-white uppercase transition duration-150 ease-in-out bg-gray-500 rounded-lg shadow-md di lg:px-8 hover:bg-gray-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg align-center font-roboto">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download"
                                     className="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -48,13 +48,13 @@ const Download = () => {
                     </ul>
 
 
-                    <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
-                        <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                    <div id="carouselExampleCaptions" className="carousel slide relative" data-bs-ride="carousel">
+                        <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
                             <button
                                 type="button"
                                 data-bs-target="#carouselExampleCaptions"
                                 data-bs-slide-to="0"
-                                class="active"
+                                className="active"
                                 aria-current="true"
                                 aria-label="Slide 1"
                             ></button>
@@ -71,58 +71,58 @@ const Download = () => {
                                 aria-label="Slide 3"
                             ></button>
                         </div>
-                        <div class="carousel-inner relative w-full overflow-hidden rounded-lg">
-                            <div class="carousel-item active relative float-left w-full">
+                        <div className="carousel-inner relative w-full overflow-hidden rounded-lg">
+                            <div className="carousel-item active relative float-left w-full">
                                 <img
                                     src="https://media.discordapp.net/attachments/546432817962156034/931251395837964348/Screenshot_20220114-011932103.jpg"
-                                    class="block w-[1216px] h-[268.5px] md:h-[537px]"
+                                    className="block w-[1216px] h-[268.5px] md:h-[537px]"
                                     alt="..."
                                 />
-                                <div class="carousel-caption hidden md:block absolute text-center bg-white dark:bg-zinc-900 dark:text-white text-black rounded-lg">
-                                    <h5 class="text-xl">Sonic Mania</h5>
+                                <div className="carousel-caption hidden md:block absolute text-center bg-white dark:bg-zinc-900 dark:text-white text-black rounded-lg">
+                                    <h5 className="text-xl">Sonic Mania</h5>
                                     <p>The first commercial game to boot on Skyline!</p>
                                 </div>
                             </div>
-                            <div class="carousel-item relative float-left w-full">
+                            <div className="carousel-item relative float-left w-full">
                                 <img
                                     src="https://cdn.discordapp.com/attachments/546432817962156034/967374268839125062/Screenshot_2022-04-23-16-09-28-90_fcf072b9e4efc4ce5ca3e36691a7c3c6.jpg?width=1216&height=537"
-                                    class="block w-[1216px] h-[268.5px] md:h-[537px]"
+                                    className="block w-[1216px] h-[268.5px] md:h-[537px]"
                                     alt="..."
                                 />
-                                <div class="carousel-caption hidden md:block absolute text-center bg-white dark:bg-zinc-900 dark:text-white text-black rounded-lg ">
-                                    <h5 class="text-xl">Celeste</h5>
+                                <div className="carousel-caption hidden md:block absolute text-center bg-white dark:bg-zinc-900 dark:text-white text-black rounded-lg ">
+                                    <h5 className="text-xl">Celeste</h5>
                                     <p>Running smoothly on Skyline!</p>
                                 </div>
                             </div>
-                            <div class="carousel-item relative float-left w-full">
+                            <div className="carousel-item relative float-left w-full">
                                 <img
                                     src="https://cdn.discordapp.com/attachments/546432817962156034/967374971183718460/Screenshot_2022-04-23-16-12-32-47_fcf072b9e4efc4ce5ca3e36691a7c3c6.jpg"
-                                    class="block w-[1216px] h-[268.5px] md:h-[537px]"
+                                    className="block w-[1216px] h-[268.5px] md:h-[537px]"
                                     alt="..."
                                 />
-                                <div class="carousel-caption hidden md:block absolute text-center bg-white dark:bg-zinc-900 dark:text-white text-black rounded-lg">
-                                    <h5 class="text-xl">Stardew Valley</h5>
+                                <div className="carousel-caption hidden md:block absolute text-center bg-white dark:bg-zinc-900 dark:text-white text-black rounded-lg">
+                                    <h5 className="text-xl">Stardew Valley</h5>
                                     <p>Got a huge performance boost recently!</p>
                                 </div>
                             </div>
                         </div>
                         <button
-                            class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                            className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
                             type="button"
                             data-bs-target="#carouselExampleCaptions"
                             data-bs-slide="prev"
                         >
-                            <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
+                            <span className="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
                         </button>
                         <button
-                            class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                            className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
                             type="button"
                             data-bs-target="#carouselExampleCaptions"
                             data-bs-slide="next"
                         >
-                            <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
+                            <span className="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
                         </button>
                     </div>
 
