@@ -4,20 +4,21 @@
  * SPDX-License-Identifier: BSD-2-Clause
  */
 
-import React, { useState } from "react"
+import React from "react"
 import Navbar from "../components/Navbar"
 import Landing from "../sections/Landing"
 import About from "../sections/About"
 import Team from "../sections/Team"
 import { Helmet } from "react-helmet"
+import { useLocalStorage } from "react-use"
 import Download from "../sections/Download"
 
 const IndexPage = () => {
 
-  const [isDark, setIsDark] = useState(true)
+  const [isDark, setIsDark] = useLocalStorage("darkmode", true)
 
   const buttonHandler = () => {
-    setIsDark(current => !current)
+    setIsDark(!isDark)
   }
 
   return (
