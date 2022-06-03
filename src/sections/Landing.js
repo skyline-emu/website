@@ -53,8 +53,10 @@ const Landing = () => {
                                 Built using
                             </h6>
                             <div className="flex items-center py-6">
-                                <img className="w-[200px] min-h-[50px] show dark:hidden" src={vulkan} alt="Vulkan Logo" />
-                                <img className="w-[200px] min-h-[50px] show dark:show" src={vulkan_white} alt="Vulkan Logo Light" />
+                                <div>
+                                    <img className="show dark:hidden" src={vulkan} alt="Vulkan Logo" />
+                                    <img className="show dark:show" src={vulkan_white} alt="Vulkan Logo Light" />
+                                </div>
                             </div>
                         </div>
                     </div>
