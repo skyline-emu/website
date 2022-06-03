@@ -7,7 +7,6 @@
 import React from "react"
 import CustomLink from "../components/CustomLink"
 import logo from "../images/logo.png"
-const elements = typeof window !== `undefined` ? require("tw-elements") : null
 
 const About = () => {
     return (
