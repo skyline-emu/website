@@ -5,7 +5,6 @@
  */
 
 import React from "react"
-const elements = typeof window !== `undefined` ? require("tw-elements") : null
 
 const Carousel = () => {
     return (
