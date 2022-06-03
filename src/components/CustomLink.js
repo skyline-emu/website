@@ -6,14 +6,19 @@
 
 import React from "react"
 import { Link } from "gatsby";
+import rippleFn from "../libs/ripple";
+import classnames from "classnames";
 
-const CustomLink = ({ style, href, children, className }) => href.startsWith("http") ? (
+const CustomLink = ({ style, href, children, className, ripple }) => href.startsWith("http") ? (
     <a
         style={style}
         href={href}
         rel="noreferrer"
         target="_blank"
-        className={className}
+        className={classnames(className, {
+            "relative overflow-hidden": ripple
+        })}
+        onMouseDown={ripple ? rippleFn : undefined}
     >
         {children}
     </a>
@@ -21,7 +26,10 @@ const CustomLink = ({ style, href, children, className }) => href.startsWith("ht
     <Link
         to={href}
         style={style}
-        className={className}
+        className={classnames(className, {
+            "relative overflow-hidden": ripple
+        })}
+        onMouseDown={ripple ? rippleFn : undefined}
     >
         {children}
     </Link>

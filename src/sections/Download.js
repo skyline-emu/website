@@ -22,7 +22,7 @@ const Download = () => {
 
                     <ul className="flex flex-wrap items-center justify-center my-12 font-roboto">
                         <div className="flex space-x-2 justify-center">
-                            <CustomLink href="https://github.com/skyline-emu/skyline/actions" data-mdb-ripple="true" data-mdb-ripple-color="light" className="flex px-5 py-3 text-sm font-medium leading-normal text-white uppercase transition duration-150 ease-in-out bg-green-500 rounded-lg shadow-md lg:px-8 hover:bg-green-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg align-center font-roboto">
+                            <CustomLink ripple href="https://github.com/skyline-emu/skyline/actions"  className="flex px-5 py-3 text-sm font-medium leading-normal text-white uppercase transition duration-150 ease-in-out bg-green-500 rounded-lg shadow-md lg:px-8 hover:bg-green-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg align-center font-roboto">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download"
                                     className="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                     <path fill="currentColor"
@@ -34,7 +34,7 @@ const Download = () => {
                         </div>
 
                         <div className="flex space-x-2 justify-center ml-3">
-                            <CustomLink href="" data-mdb-ripple="true" data-mdb-ripple-color="light" className="flex px-5 py-3 text-sm font-medium leading-normal text-white uppercase transition duration-150 ease-in-out bg-gray-500 rounded-lg shadow-md di lg:px-8 hover:bg-gray-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg align-center font-roboto">
+                            <CustomLink ripple href="#" className="flex px-5 py-3 text-sm font-medium leading-normal text-white uppercase transition duration-150 ease-in-out bg-gray-500 rounded-lg shadow-md di lg:px-8 hover:bg-gray-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg align-center font-roboto">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download"
                                     className="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                     <path fill="currentColor"
