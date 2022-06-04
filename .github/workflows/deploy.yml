@@ -1,9 +1,6 @@
-name: Gatsby Publish
+name: Deploy Website
 
 on:
-  pull_request:
-    branches:
-      - master
   push:
     branches:
       - master
@@ -17,5 +14,4 @@ jobs:
         with:
           access-token: x-access-token:${{ secrets.GITHUB_TOKEN }}
           deploy-branch: gh-pages
-          gatsby-args: --prefix-paths
           skip-publish: false
