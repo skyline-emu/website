@@ -18,8 +18,6 @@ const IndexPage = () => {
 
   const isDark = useMedia("(prefers-color-scheme: dark)");
 
-  console.log(isDark);
-
   return (
     <main className={isDark ? "dark" : "light"}>
       <Helmet htmlAttributes={{ lang: 'en' }}>
