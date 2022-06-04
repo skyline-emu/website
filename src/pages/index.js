@@ -10,13 +10,13 @@ import Landing from "../sections/Landing"
 import About from "../sections/About"
 import Team from "../sections/Team"
 import { Helmet } from "react-helmet"
-import { useMedia } from "react-use"
+import useDarkModeState from "../libs/useDarkModeState"
 
 // import Download from "../sections/Download"
 
 const IndexPage = () => {
 
-  const isDark = useMedia("(prefers-color-scheme: dark)");
+  const isDark = useDarkModeState();
 
   return (
     <main className={isDark ? "dark" : "light"}>
