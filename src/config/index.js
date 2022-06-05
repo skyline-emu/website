@@ -1,7 +1,7 @@
 /**
  * @license
  * Copyright © 2022 Skyline Team and Contributors (https://github.com/skyline-emu/)
- * SPDX-License-Identifier: BSD-2-Clause
+ * SPDX-License-Identifier: BSD-3-Clause
  */
 
 import { team } from "./team";
