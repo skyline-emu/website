@@ -17,7 +17,7 @@ const Team = () => {
                     <div className="mx-auto text-center md:max-w-xl lg:max-w-3xl">
                         <h3 className="mb-6 text-3xl font-bold text-black dark:text-white">Our Team</h3>
                         <p className="pb-2 mb-6 font-semibold text-blue-500 md:mb-12 md:pb-0">
-                            The Skyline Team is composed of passionate open source contributors from all around the word.
+                            The Skyline Team is composed of passionate individuals from all around the world 🌐
                         </p>
                     </div>
                     <div className="grid gap-6 pt-4 text-center md:grid-cols-4">
