@@ -5,8 +5,8 @@
  */
 
 import React from "react"
-import vulkan from "../images/vk.png"
-import vulkan_white from "../images/vk_light.png"
+import vulkan from "../images/vk.svg"
+import vulkan_white from "../images/vk_light.svg"
 
 import logo from "../images/logo.png"
 import CustomLink from "../components/CustomLink"
