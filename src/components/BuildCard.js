@@ -11,7 +11,7 @@ import { marked } from "marked";
 
 const BuildCard = ({ createdAt, title, description, download_url, github_url, branch, id, hash, number }) => (
     <div className="mt-6">
-        <div className="max-w-4xl px-10 py-6 mx-auto bg-stone-200 dark:bg-zinc-900 round shadow-md">
+        <div className="max-w-4xl px-10 py-6 mx-auto shadow-md bg-stone-200 dark:bg-zinc-900 round">
             <div className="flex items-center justify-between">
                 <span className="font-light text-gray-600 dark:text-white">
                     {DateTime.fromISO(createdAt).toLocaleString()}
@@ -25,12 +25,12 @@ const BuildCard = ({ createdAt, title, description, download_url, github_url, br
                     #{number} - {title}
                 </CustomLink>
             </div>
-            <div className="text-gray-800 dark:text-gray-200" 
+            <div className="mt-4 text-gray-800 dark:text-gray-200" 
                 dangerouslySetInnerHTML={{
                     __html: marked.parse(description)
                 }}
             />
-            <div className="text-gray-800 dark:text-gray-200 mt-5">
+            <div className="mt-5 text-gray-800 dark:text-gray-200">
                 <strong>Branch:</strong> {branch}<br />
                 <strong>Commit Hash:</strong> {hash}<br />
                 <strong>Run ID:</strong> {id}<br />
