@@ -9,12 +9,30 @@ import logo from "../images/logo.png"
 import Hamburger from 'hamburger-react'
 import CustomLink from "./CustomLink"
 
-const Navbar = () => {
+const paths = [
+    {
+        name: "Home",
+        path: "/#",
+    },
+    {
+        name: "About",
+        path: "/#about",
+    },
+    {
+        name: "Team",
+        path: "/#team",
+    },
+    {
+        name: "Download",
+        path: "/download"
+    },
+];
 
+const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
     return (
-        <div className="">
+        <div>
             <nav className="bg-white dark:bg-darkBackground">
                 <div className="px-8 mx-auto max-w-page">
                     <div className="flex items-center justify-between h-20">
@@ -33,15 +51,17 @@ const Navbar = () => {
                         </div>
                         <div className="hidden md:flex md:flex-row md:grow font-roboto">
                             <div className="flex items-baseline ml-10 space-x-4">
-                                <CustomLink className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md dark:text-white hover:font-bold hover:text-blue-500 dark:hover:text-blue-500" href="#about">
-                                    About
-                                </CustomLink>
-                                <CustomLink className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md hover:text-blue-500 dark:text-white dark:hover:text-blue-500" href="#team">
-                                    Team
-                                </CustomLink>
-                                {/* <CustomLink className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md hover:text-blue-500 hover:font-bold dark:text-white dark:hover:text-blue-500" href="#download">
-                                    Download
-                                </CustomLink> */}
+                                {
+                                    paths.map(
+                                        (i, idx) => <CustomLink 
+                                            key={idx} 
+                                            className="px-3 py-2 text-sm font-bold text-gray-500 uppercase rounded-md dark:text-white hover:font-bold hover:text-blue-500 dark:hover:text-blue-500" 
+                                            href={i.path}
+                                        >
+                                            {i.name}
+                                        </CustomLink>
+                                    )
+                                }
                             </div>
                         </div>
                         <div className="hidden lg:block md:block">
@@ -67,15 +87,17 @@ const Navbar = () => {
 
                 <div hidden={navbarOpen ? false : true} className="lg:hidden md:hidden">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        <CustomLink className="block px-3 py-2 text-base font-medium text-gray-800 rounded-md dark:text-white" href="#about">
-                            About
-                        </CustomLink>
-                        <CustomLink className="block px-3 py-2 text-base font-medium text-gray-800 rounded-md dark:text-white" href="#team">
-                            Team
-                        </CustomLink>
-                        {/* <CustomLink className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:text-gray-800 dark:hover:text-white" href="#download">
-                            Download
-                        </CustomLink> */}
+                        {
+                            paths.map(
+                                (i, idx) => <CustomLink
+                                    key={idx}
+                                    className="block px-3 py-2 text-base font-medium text-gray-800 rounded-md dark:text-white" 
+                                    href={i.path}
+                                >
+                                    {i.name}
+                                </CustomLink>
+                            )
+                        }
                     </div>
                 </div>
                 
