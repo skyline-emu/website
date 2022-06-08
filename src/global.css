@@ -17,3 +17,7 @@
         opacity: 0;
     }
 }
+
+code {
+    @apply bg-purple-500/50 text-gray-700 dark:text-gray-200 p-1 rounded;
+}
