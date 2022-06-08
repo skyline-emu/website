@@ -7,6 +7,7 @@
 import React from "react"
 import BuildCard from "../components/BuildCard"
 import Layout from "../components/Layout"
+import Preloader from "../components/Preloader"
 import axios from "axios"
 import useSWR from "swr"
 import config from "../config";
@@ -20,7 +21,7 @@ const IndexPage = () => {
   
   return (
     <Layout title="Download Skyline - Nintendo Switch Emulator">
-      <div className="w-full pb-0 md:pb-20 md:h-full dark:bg-darkBackground">
+      <div className="w-full pb-0 md:pb-20 min-h-screen dark:bg-darkBackground">
         <div className="flex items-center justify-between">
           <div className="px-8 py-12 mx-auto md:py-18 max-w-page">
             <h1
@@ -28,7 +29,7 @@ const IndexPage = () => {
             >
               Skyline Builds
             </h1>
-            {isValidating ? <span className="text-white">Loading</span> : data.map((build, idx) => {
+            {isValidating ? <Preloader /> : data.map((build, idx) => {
               const split = build.commit.message.split("\n\n");
               const title = split.shift();
               const description = split.join("\n\n");
@@ -54,4 +55,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default IndexPage;
