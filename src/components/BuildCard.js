@@ -34,7 +34,7 @@ const BuildCard = ({ createdAt, title, description, download_url, github_url, br
                 <strong>Branch:</strong> {branch}<br />
                 <strong>Commit Hash:</strong> {hash}<br />
                 <strong>Run ID:</strong> {id}<br />
-                <strong>Built At:</strong> {DateTime.fromISO(createdAt).toLocaleString()}
+                <strong>Built Date:</strong> {DateTime.fromISO(createdAt).toLocaleString()}
             </div>
             <div className="flex items-center justify-between mt-4">
                 <CustomLink
