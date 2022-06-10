@@ -1,7 +1,13 @@
+/**
+ * @license
+ * Copyright © 2022 Skyline Team and Contributors (https://github.com/skyline-emu/)
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+
 /* ./src/styles/global.css */
 @tailwind base;
 @tailwind components;
-@tailwind utilities;    
+@tailwind utilities;
 
 /* ripple effect */
 .ripple {
@@ -38,46 +44,47 @@ code {
 
 .preloader-1,
 .preloader-2 {
-	width:70px;
-	height:70px;
-	position:absolute;
-	border-radius:50%;
-	top:50%;left:50%;
-	transform:translate(-50%,-50%);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .preloader-1 {
-	left:20%;
-	animation:osc-l 2.5s ease infinite;
+    left: 20%;
+    animation: osc-l 2.5s ease infinite;
     background: #bb43bf;
 }
 
 .preloader-2 {
-	left:80%;
-	animation:osc-r 2.5s ease infinite;
+    left: 80%;
+    animation: osc-r 2.5s ease infinite;
     background: #435abf;
 }
 
 @keyframes osc-l {
-	0% {
-        left:20%;
+    0% {
+        left: 20%;
     }
-	50% {
-        left:50%;
+    50% {
+        left: 50%;
     }
-	100% {
-        left:20%;
+    100% {
+        left: 20%;
     }
 }
 
 @keyframes osc-r {
-	0% {
-        left:80%;
+    0% {
+        left: 80%;
     }
-	50% {
-        left:50%;
+    50% {
+        left: 50%;
     }
-	100% {
-        left:80%;
+    100% {
+        left: 80%;
     }
 }

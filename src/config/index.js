@@ -8,7 +8,7 @@ import { team } from "./team";
 
 const config = {
     team,
-    builds_api_url: "https://skyline-builds.alula.gay/builds"
-}
+    builds_api_url: "https://skyline-builds.alula.gay/builds",
+};
 
 export default config;

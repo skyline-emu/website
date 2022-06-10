@@ -1,17 +1,17 @@
 name: Deploy Website
 
 on:
-  push:
-    branches:
-      - master
+    push:
+        branches:
+            - master
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: enriikke/gatsby-gh-pages-action@v2
-        with:
-          access-token: x-access-token:${{ secrets.GITHUB_TOKEN }}
-          deploy-branch: gh-pages
-          skip-publish: false
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v1
+            - uses: enriikke/gatsby-gh-pages-action@v2
+              with:
+                  access-token: x-access-token:${{ secrets.GITHUB_TOKEN }}
+                  deploy-branch: gh-pages
+                  skip-publish: false

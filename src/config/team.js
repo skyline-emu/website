@@ -61,9 +61,4 @@ const community_managers = [
     },
 ];
 
-export const team = [
-    ...lead_developers.map(i => ({...i, title: "Lead Developer"})),
-    ...developers.map(i => ({...i, title: "Developer"})),
-    ...web_developers.map(i => ({...i, title: "Web Developer"})),
-    ...community_managers.map(i => ({...i, title: "Community Manager"})),
-];
+export const team = [...lead_developers.map((i) => ({ ...i, title: "Lead Developer" })), ...developers.map((i) => ({ ...i, title: "Developer" })), ...web_developers.map((i) => ({ ...i, title: "Web Developer" })), ...community_managers.map((i) => ({ ...i, title: "Community Manager" }))];

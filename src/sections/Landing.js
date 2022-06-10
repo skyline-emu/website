@@ -4,14 +4,13 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-import React from "react"
-import vulkan from "../images/vk.svg"
-import vulkan_white from "../images/vk_light.svg"
-
-import logo from "../images/logo.png"
-import CustomLink from "../components/CustomLink"
+import React from "react";
+import vulkan from "../images/vk.svg";
+import vulkan_white from "../images/vk_light.svg";
+import logo from "../images/logo.png";
+import CustomLink from "../components/CustomLink";
 import { FaDownload, FaSearch } from "react-icons/fa";
-import DeviceMockup from "../components/DeviceMockup"
+import DeviceMockup from "../components/DeviceMockup";
 
 const Landing = () => {
     return (
@@ -26,13 +25,9 @@ const Landing = () => {
                             <h2 className="max-w-lg mb-6 text-3xl font-bold leading-8 tracking-tight text-center dark:text-white sm:text-4xl md:text-left">
                                 Skyline
                                 <br></br>
-                                <span className="inline-block pt-3 text-2xl text-blue-500">
-                                    Nintendo Switch™ Emulator for Android™
-                                </span>
+                                <span className="inline-block pt-3 text-2xl text-blue-500">Nintendo Switch™ Emulator for Android™</span>
                             </h2>
-                            <p className="text-base text-center dark:text-white md:text-lg md:text-left">
-                                Skyline is an open source and experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system.
-                            </p>
+                            <p className="text-base text-center dark:text-white md:text-lg md:text-left">Skyline is an open source and experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system.</p>
                         </div>
                         <ul className="flex flex-wrap items-center justify-center md:justify-start font-roboto">
                             <div className="flex space-x-2 justify-center m-2">
@@ -49,9 +44,7 @@ const Landing = () => {
                             </div>
                         </ul>
                         <div className="items-baseline pt-16 clients">
-                            <h6 className="flex items-center text-sm font-bold text-gray-500 uppercase font-inter text-body-color dark:text-white">
-                                Built using
-                            </h6>
+                            <h6 className="flex items-center text-sm font-bold text-gray-500 uppercase font-inter text-body-color dark:text-white">Built using</h6>
                             <div className="flex items-center py-6">
                                 <div>
                                     <img className="block dark:hidden" src={vulkan} alt="Vulkan Logo" />
@@ -64,7 +57,7 @@ const Landing = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Landing
+export default Landing;
