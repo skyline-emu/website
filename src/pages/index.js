@@ -4,20 +4,20 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-import React from "react"
-import Landing from "../sections/Landing"
-import About from "../sections/About"
-import Team from "../sections/Team"
-import Layout from "../components/Layout"
+import React from "react";
+import Landing from "../sections/Landing";
+import About from "../sections/About";
+import Team from "../sections/Team";
+import Layout from "../components/Layout";
 
 const IndexPage = () => {
-  return (
-    <Layout title="Skyline - Nintendo Switch Emulator">
-      <Landing />
-      <About/>
-      <Team />
-    </Layout> 
-  )
-}
+    return (
+        <Layout title="Skyline - Nintendo Switch Emulator">
+            <Landing />
+            <About />
+            <Team />
+        </Layout>
+    );
+};
 
-export default IndexPage
+export default IndexPage;
