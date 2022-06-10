@@ -15,8 +15,8 @@ const HTML = (props) => (
       <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
-      <meta name="description" content="Skyline is an open source and experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system." />
-      <meta name="keywords" content="Emulator, Nintendo Switch™, Skyline, Android" />
+      <meta name="description" content="Skyline is an open source and experimental emulator that runs on ARMv8 Android devices and emulates the functionality of a Nintendo Switch system." />
+      <meta name="keywords" content="Emulator, Nintendo Switch, Skyline, Android" />
       <meta name="author" content="Skyline Team" />
       <title>Skyline - Nintendo Switch Emulator</title>
       {props.headComponents}
