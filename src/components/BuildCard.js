@@ -6,12 +6,14 @@
 
 import React from "react";
 import CustomLink from "./CustomLink";
+import Button from "./Button";
+import { FaDownload } from "react-icons/fa";
 import { DateTime } from "luxon";
 import { marked } from "marked";
 
 const BuildCard = ({ createdAt, title, description, download_url, github_url, branch, id, hash, number }) => (
     <div className="mt-6">
-        <div className="max-w-4xl px-10 py-6 mx-auto shadow-md bg-stone-200 dark:bg-zinc-900 round">
+        <div className="max-w-7xl px-5 py-6 mx-auto bg-stone-50 dark:bg-zinc-900 rounded">
             <div className="flex items-center justify-between">
                 <span className="font-light text-gray-600 dark:text-white">{DateTime.fromISO(createdAt).toLocaleString()}</span>
             </div>
@@ -27,21 +29,15 @@ const BuildCard = ({ createdAt, title, description, download_url, github_url, br
                 }}
             />
             <div className="mt-5 text-gray-800 dark:text-gray-200">
-                <strong>Branch:</strong> {branch}
-                <br />
-                <strong>Commit Hash:</strong> {hash}
-                <br />
+                <strong>Branch:</strong> <code>{branch}</code>
+                <br/>
+                <strong>Commit Hash:</strong> <code>{hash}</code>
+                <br/>
                 <strong>Run ID:</strong> {id}
-                <br />
-                <strong>Built Date:</strong> {DateTime.fromISO(createdAt).toLocaleString()}
             </div>
-            <div className="flex items-center justify-between mt-4">
-                <CustomLink href={download_url} ripple className="flex px-5 py-3 text-sm font-medium leading-normal text-white uppercase transition duration-150 ease-in-out bg-green-500 rounded-lg shadow-md lg:px-8 hover:bg-green-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg align-center font-roboto">
-                    Download
-                </CustomLink>
-                <CustomLink href={github_url} ripple className="flex px-5 py-3 text-sm font-medium leading-tight text-blue-600 uppercase transition duration-150 ease-in-out border-2 border-blue-600 rounded-lg lg:px-8 font-roboto focus:outline-none focus:ring-0 hover:bg-blue-500 hover:text-white hover:border-blue-500">
-                    View On Github
-                </CustomLink>
+            <div className="flex items-center mt-4 gap-3">
+                <Button href={download_url} icon={<FaDownload/>} text="Download"/>
+                <Button href={github_url} text="View On Github" />
             </div>
         </div>
     </div>

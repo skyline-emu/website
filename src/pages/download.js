@@ -23,11 +23,7 @@ const IndexPage = () => {
             <link rel="preload" href={config.builds_api_url} as="fetch" crossorigin="anonymous"/>
             <div className="w-full min-h-screen pb-0 md:pb-20 dark:bg-darkBackground">
                 <div className="flex items-center justify-between">
-                    <div className="px-8 py-12 mx-auto md:py-18 max-w-page">
-                        <div className="pt-4 mx-auto text-center md:max-w-xl lg:max-w-3xl">
-                            <h3 className="mb-6 text-3xl font-bold text-black dark:text-white">Builds</h3>
-                            <p className="pb-2 mb-6 font-semibold text-blue-500 md:mb-12 md:pb-0">Click on Download to download the apk file for the emulator.</p>
-                        </div>
+                    <div className="px-8 mx-auto md:py-18 max-w-page">
                         {data === undefined ? (
                             <Preloader />
                         ) : (
