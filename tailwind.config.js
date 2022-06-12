@@ -22,8 +22,17 @@ module.exports = {
                 "4.5xl": "60rem",
             },
             colors: {
-                colorPrimary: "#FF1E58F0",
+                background: "#FFFFFF",
+                primary: "#1E58F0",
+                primaryRipple: "#1E58F020",
+                primaryHoverButton: "#1E58F00A",
+                primaryActiveButton: "#1E58F013",
+
                 darkBackground: "#121212",
+                darkPrimary: "#4285F4",
+                darkPrimaryRipple: "#4285F420",
+                darkPrimaryHoverButton: "#4285F40A",
+                darkPrimaryActiveButton: "#4285F413",
             },
             fontFamily: {
                 poppins: ["Poppins", "sans-serif"],

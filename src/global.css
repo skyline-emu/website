@@ -9,13 +9,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ripple effect */
+/* Ripple Effect */
 .ripple {
     position: absolute;
     border-radius: 50%;
     transform: scale(0);
-    animation: ripple 600ms linear;
-    background-color: rgba(255, 255, 255, 0.7);
+    animation: ripple 600ms ease-out;
+    @apply bg-primaryRipple dark:bg-darkPrimaryRipple;
 }
 
 @keyframes ripple {
@@ -25,14 +25,17 @@
     }
 }
 
-/* download page code block */
+.button {
+    @apply flex py-2 text-primary dark:text-darkPrimary text-sm font-roboto font-bold tracking-wide uppercase transition duration-150 ease-in-out border-[1.8px] border-zinc-200 dark:border-zinc-800 rounded hover:bg-primaryHoverButton active:bg-primaryActiveButton dark:hover:bg-darkPrimaryHoverButton dark:active:bg-darkPrimaryActiveButton box-border active:box-content;
+}
+
 code {
     @apply bg-gray-500/50 text-black dark:text-white p-1 rounded;
 }
 
-/* preloader */
+/* Preloader */
 .preloader-container {
-    @apply bg-white dark:bg-darkBackground;
+    @apply bg-background dark:bg-darkBackground;
     width: 400px;
     height: 400px;
     position: absolute;
