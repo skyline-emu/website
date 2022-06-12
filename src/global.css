@@ -29,8 +29,9 @@
     @apply flex py-2 text-primary dark:text-darkPrimary text-sm font-roboto font-bold tracking-wide uppercase transition duration-150 ease-in-out border-[1.8px] border-zinc-200 dark:border-zinc-800 rounded hover:bg-primaryHoverButton active:bg-primaryActiveButton dark:hover:bg-darkPrimaryHoverButton dark:active:bg-darkPrimaryActiveButton box-border active:box-content;
 }
 
+/* Code Block */
 code {
-    @apply bg-gray-500/50 text-black dark:text-white p-1 rounded;
+    @apply bg-zinc-300 dark:bg-zinc-700 text-black dark:text-gray-100 p-0.5 rounded;
 }
 
 /* Preloader */
