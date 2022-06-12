@@ -17,8 +17,10 @@ const Layout = ({ children, title }) => {
             <Helmet htmlAttributes={{ lang: "en" }}>
                 <title>{title}</title>
             </Helmet>
-            <Navbar />
-            {children}
+            <div className="dark:bg-darkBackground">
+                <Navbar />
+                {children}
+            </div>
         </main>
     );
 };
