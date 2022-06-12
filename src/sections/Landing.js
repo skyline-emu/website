@@ -24,17 +24,17 @@ const Landing = () => {
                         <div className="mb-10 lg:mt-6 font-inter">
                             <h2 className="mb-6 text-3xl font-bold leading-8 tracking-tight text-center dark:text-white sm:text-4xl md:text-left">
                                 Skyline
-                                <br/>
+                                <br />
                                 <span className="inline-block pt-3 text-2xl text-blue-500">Nintendo Switch™ Emulator for Android™</span>
                             </h2>
                             <p className="text-base text-center dark:text-white md:text-lg md:text-left">Skyline is an open source and experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system.</p>
                         </div>
                         <ul className="flex flex-wrap items-center justify-center md:justify-start font-roboto">
                             <span className="flex space-x-2 justify-center m-2">
-                                <Button href="/download" icon={<FaDownload/>} text="Download" />
+                                <Button href="/download" icon={<FaDownload />} text="Download" />
                             </span>
                             <span className="flex space-x-2 justify-center m-2">
-                                <Button href="#about" icon={<FaSearch/>} text="Learn More" />
+                                <Button href="#about" icon={<FaSearch />} text="Learn More" />
                             </span>
                         </ul>
                         <div className="items-baseline pt-16 clients">

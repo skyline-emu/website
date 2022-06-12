@@ -29,14 +29,18 @@ const BuildCard = ({ createdAt, title, description, download_url, github_url, br
                 }}
             />
             <div className="mt-5 text-gray-800 dark:text-gray-200">
-                <strong>Branch:</strong> <code>{branch}</code>
-                <br/>
-                <strong>Commit Hash:</strong> <code>{hash}</code>
-                <br/>
-                <strong>Run ID:</strong> {id}
+                <div className="truncate max-w-full">
+                    <strong>Branch:</strong> <code>{branch}</code>
+                </div>
+                <div className="truncate max-w-full">
+                    <strong>Commit Hash:</strong> <code>{hash}</code>
+                </div>
+                <div className="truncate max-w-full">
+                    <strong>Run ID:</strong> {id}
+                </div>
             </div>
             <div className="flex items-center mt-4 gap-3">
-                <Button href={download_url} icon={<FaDownload/>} text="Download"/>
+                <Button href={download_url} icon={<FaDownload />} text="Download" />
                 <Button href={github_url} text="View On Github" />
             </div>
         </div>
