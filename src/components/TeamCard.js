@@ -6,17 +6,19 @@
 
 import React from "react";
 import CustomLink from "./CustomLink";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const TeamCard = ({ name, avatar, github, title }) => (
     <div>
-        <div className="bg-stone-100 rounded-lg dark:bg-zinc-900 dark:text-white">
+        <div className="rounded-lg bg-stone-100 dark:bg-zinc-900 dark:text-white">
             <div className="h-20 overflow-hidden rounded-t-lg"></div>
             <div className="w-20 mx-auto -mt-12 overflow-hidden bg-white border-2 border-white rounded-full">
-                <img alt={name} src={avatar} />
+                {/* <img alt={name} src={avatar} /> */}
+                <LazyLoadImage alt={name} src={avatar} />
             </div>
             <div className="p-6">
                 <CustomLink href={github}>
-                    <h4 className="mb-4 text-2xl font-bold text-pink-500 overflow-hidden text-ellipsis underline">{name}</h4>
+                    <h4 className="mb-4 overflow-hidden text-2xl font-bold text-pink-500 underline text-ellipsis">{name}</h4>
                 </CustomLink>
                 <p className="mt-4 mb-4">{title}</p>
                 {/* <CustomLink className="font-bold text-pink-500 underline" href="">Github</CustomLink> */}
