@@ -4,10 +4,21 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
+ import mark from "../images/team/mark.webp"
+ import billy from "../images/team/billy.webp"
+ import lynx from "../images/team/lynx.webp"
+ import mc from "../images/team/mc.webp"
+ import ducc from "../images/team/ducc.webp"
+ import glade from "../images/team/glade.webp"
+ import king from "../images/team/king.webp"
+ import will from "../images/team/will.webp"
+ import ivar from "../images/team/ivar.webp"
+
+
 const lead_developers = [
     {
         name: "Mark",
-        avatar: "https://avatars.githubusercontent.com/u/17637537",
+        avatar: mark,
         github: "https://github.com/PixelyIon",
     },
 ];
@@ -15,17 +26,17 @@ const lead_developers = [
 const developers = [
     {
         name: "Billy",
-        avatar: "https://avatars.githubusercontent.com/u/46304689",
+        avatar: billy,
         github: "https://github.com/bylaws",
     },
     {
         name: "Lynx",
-        avatar: "https://avatars.githubusercontent.com/u/37104290",
+        avatar: lynx,
         github: "https://github.com/lynxnb",
     },
     {
         name: "MC",
-        avatar: "https://avatars.githubusercontent.com/u/63514060",
+        avatar: mc,
         github: "https://github.com/MCredstoner2004",
     },
 ];
@@ -33,7 +44,7 @@ const developers = [
 const web_developers = [
     {
         name: "Ducc",
-        avatar: "https://avatars.githubusercontent.com/u/51520568",
+        avatar: ducc,
         github: "https://github.com/msoham123",
     }
 ];
@@ -49,22 +60,22 @@ const bot_developers = [
 const community_managers = [
     {
         name: "GalladeGuy",
-        avatar: "https://avatars.githubusercontent.com/u/15641825",
+        avatar: glade,
         github: "https://github.com/GalladeGuy",
     },
     {
         name: "King",
-        avatar: "https://avatars.githubusercontent.com/u/73195869",
+        avatar: king,
         github: "https://github.com/MrKing202981",
     },
     {
         name: "WillFaustCuber",
-        avatar: "https://avatars.githubusercontent.com/u/39139570",
+        avatar: will,
         github: "https://github.com/willfaust",
     },
     {
         name: "Ivar",
-        avatar: "https://avatars.githubusercontent.com/u/41924494",
+        avatar: ivar,
         github: "https://github.com/IvarWithoutBones",
     },
 ];
