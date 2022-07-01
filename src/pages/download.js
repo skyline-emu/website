@@ -27,10 +27,7 @@ const IndexPage = () => {
                         <Preloader />
                     ) : (
                         data.map((build, idx) => {
-                            const split = build.commit.message.split("\n\n");
-                            const title = split.shift();
-                            const description = split.join("\n\n");
-                            return <BuildCard key={idx} createdAt={build.createdAt} title={title} description={description || "No description provided"} download_url={`https://skyline-builds.alula.gay/cache/${build.id}/${build.apkName}`} github_url={`https://github.com/skyline-emu/skyline/commit/${build.commit.id}`} branch={build.branch} id={build.id} hash={build.commit.id} number={build.runNumber} />;
+                            return <BuildCard key={idx} createdAt={build.createdAt} message={build.commit.message} download_url={`https://skyline-builds.alula.gay/cache/${build.id}/${build.apkName}`} github_url={`https://github.com/skyline-emu/skyline/commit/${build.commit.id}`} branch={build.branch} hash={build.commit.id} number={build.runNumber} />;
                         })
                     )}
                 </div>
