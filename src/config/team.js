@@ -35,7 +35,15 @@ const web_developers = [
         name: "Ducc",
         avatar: "https://avatars.githubusercontent.com/u/51520568",
         github: "https://github.com/msoham123",
-    },
+    }
+];
+
+const bot_developers = [
+    {
+        name: "FinRoy",
+        avatar: "https://cdn.discordapp.com/avatars/392160321696956417/87b836317d1cba8a8f0f0998f00e4006.webp?size=100",
+        github: "https://github.com/finr0y",
+    }
 ];
 
 const community_managers = [
@@ -61,4 +69,4 @@ const community_managers = [
     },
 ];
 
-export const team = [...lead_developers.map((i) => ({ ...i, title: "Lead Developer" })), ...developers.map((i) => ({ ...i, title: "Developer" })), ...web_developers.map((i) => ({ ...i, title: "Web Developer" })), ...community_managers.map((i) => ({ ...i, title: "Community Manager" }))];
+export const team = [...lead_developers.map((i) => ({ ...i, title: "Lead Developer" })), ...developers.map((i) => ({ ...i, title: "Developer" })), ...web_developers.map((i) => ({ ...i, title: "Web Developer" })), ...bot_developers.map((i) => ({ ...i, title: "Bot Developer"})), ...community_managers.map((i) => ({ ...i, title: "Community Manager" }))];
