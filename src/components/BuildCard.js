@@ -65,7 +65,7 @@ const Markdown = ({ string }) => {
 
 const BuildCard = ({ createdAt, message, download_url, github_url, branch, hash, number }) => {
     const titleEnd = message.indexOf("\n", 1);
-    const title = message.slice(0, titleEnd);
+    const title = titleEnd !== -1 ? message.slice(0, titleEnd) : message;
     var description = message.slice(titleEnd + 1);
     while (description.charAt(0) === "\n") description = description.slice(1);
 
