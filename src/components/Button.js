@@ -17,14 +17,23 @@ const ButtonInner = ({ icon, text, className }) => (
     </div>
 );
 
-const Button = ({ href="", icon, text, onClick, className }) =>
-    href.startsWith("http") ? (
+const GetPathName = () => {
+    if (typeof window !== "undefined")
+        return window.location.pathname;
+    return "";
+}
+
+const Button = ({ href="", icon, text, onClick, className }) =>  {
+    if (href.startsWith(GetPathName() + "#"))
+        href = href.substring(GetPathName().length);
+    
+    return href.startsWith("http") ? (
         <a href={href} onClick={onClick} rel="noreferrer" target="_blank" tabIndex={-1}>
             <ButtonInner icon={icon} text={text} className={className} />
         </a>
     ) :
-    href.startsWith("#") ? (
-        <AnchorLink href={href}>
+    (href.startsWith("#")) ? (
+        <AnchorLink href={href} onClick={onClick} tabIndex={-1}>
             <ButtonInner icon={icon} text={text} className={className} />
         </AnchorLink>
     ) : (
@@ -32,5 +41,6 @@ const Button = ({ href="", icon, text, onClick, className }) =>
             <ButtonInner icon={icon} text={text} className={className} />
         </Link>
     );
+}
 
 export default Button;

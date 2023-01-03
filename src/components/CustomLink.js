@@ -10,8 +10,17 @@ import AnchorLink from 'react-anchor-link-smooth-scroll-v2'
 import rippleFn from "../libs/ripple";
 import classnames from "classnames";
 
-const CustomLink = ({ style, href, children, className, ripple }) =>
-    href.startsWith("http") ? (
+const GetPathName = () => {
+    if (typeof window !== "undefined")
+        return window.location.pathname;
+    return "";
+}
+
+const CustomLink = ({ style, href, children, className, ripple }) =>  {
+    if (href.startsWith(GetPathName() + "#"))
+        href = href.substring(GetPathName().length);
+    
+    return href.startsWith("http") ? (
         <a
             style={style}
             href={href}
@@ -25,7 +34,7 @@ const CustomLink = ({ style, href, children, className, ripple }) =>
             {children}
         </a>
     ) :
-    href.startsWith("#") ? (
+    (href.startsWith("#")) ? (
         <AnchorLink
             href={href}
             style={style}
@@ -48,5 +57,6 @@ const CustomLink = ({ style, href, children, className, ripple }) =>
             {children}
         </Link>
     );
+}
 
 export default CustomLink;

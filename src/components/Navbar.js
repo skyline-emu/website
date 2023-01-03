@@ -53,7 +53,7 @@ const Navbar = () => {
                         <div className="hidden md:flex md:flex-row md:grow font-roboto">
                             <div className="flex items-baseline ml-10 space-x-4">
                                 {paths.map((i, idx) => (
-                                    <CustomLink key={idx} className="px-3 py-2 text-sm tracking-wide font-bold text-gray-500 transition-colors duration-200 uppercase rounded-md dark:text-white hover:font-bold hover:text-blue-500 dark:hover:text-blue-500" href={i.path.substring(1)}>
+                                    <CustomLink key={idx} className="px-3 py-2 text-sm tracking-wide font-bold text-gray-500 transition-colors duration-200 uppercase rounded-md dark:text-white hover:font-bold hover:text-blue-500 dark:hover:text-blue-500" href={i.path}>
                                         {i.name}
                                     </CustomLink>
                                 ))}
