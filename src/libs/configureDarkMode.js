@@ -4,10 +4,14 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
+ import "react";
+
 const colorSchemeMedia = "(prefers-color-scheme: dark)";
+const isBrowser = () => typeof window !== "undefined"
 
 const configureDarkMode = () => {
-    if (window.matchMedia(colorSchemeMedia).matches) {
+
+    if (isBrowser() && window.matchMedia(colorSchemeMedia).matches) {
         document.documentElement.classList.add('dark')
     } else {
         document.documentElement.classList.add('light')
