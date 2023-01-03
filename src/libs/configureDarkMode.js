@@ -7,7 +7,7 @@
 const colorSchemeMedia = "(prefers-color-scheme: dark)";
 
 const configureDarkMode = () => {
-    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    if (window.matchMedia(colorSchemeMedia).matches) {
         document.documentElement.classList.add('dark')
     } else {
         document.documentElement.classList.add('light')
