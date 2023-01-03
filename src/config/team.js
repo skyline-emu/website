@@ -38,7 +38,7 @@ const web_developers = [
 const bot_developers = [
     {
         name: "FinRoy",
-        avatar: "https://cdn.discordapp.com/avatars/392160321696956417/23d29aacefd7b51ecaf126106a376a53.webp?size=100",
+        avatar: "https://avatars.githubusercontent.com/u/79334740",
         github: "https://github.com/finr0y",
     }
 ];
