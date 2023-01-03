@@ -4,15 +4,12 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-const lead_developers = [
+const app_developers = [
     {
         name: "Mark",
         avatar: "https://avatars.githubusercontent.com/u/17637537",
         github: "https://github.com/PixelyIon",
     },
-];
-
-const developers = [
     {
         name: "Billy",
         avatar: "https://avatars.githubusercontent.com/u/46304689",
@@ -46,11 +43,49 @@ const bot_developers = [
     }
 ];
 
-const community_managers = [
+const senior_community_managers = [
+    {
+        name: "Ivar",
+        avatar: "https://avatars.githubusercontent.com/u/41924494",
+        github: "https://github.com/IvarWithoutBones",
+    },
     {
         name: "GalladeGuy",
         avatar: "https://avatars.githubusercontent.com/u/15641825",
         github: "https://github.com/GalladeGuy",
+    },
+];
+
+const community_managers = [
+    {
+        name: "Swizzlefowl",
+        avatar: "https://avatars.githubusercontent.com/u/101060208?v=4",
+        github: "https://github.com/Swizzlefowl",
+    },
+    {
+        name: "Tsk",
+        avatar: "https://avatars.githubusercontent.com/u/96981837?v=4",
+        github: "https://github.com/2Tsk2",
+    },
+    {
+        name: "Rob",
+        avatar: "https://avatars.githubusercontent.com/u/81924196?v=4",
+        github: "https://github.com/iniMerchant64",
+    },
+    {
+        name: "K11MCH1",
+        avatar: "https://avatars.githubusercontent.com/u/81425424?v=4",
+        github: "https://github.com/K11MCH1",
+    },
+    {
+        name: "Adrien",
+        avatar: "https://avatars.githubusercontent.com/u/96989642?v=4",
+        github: "https://github.com/QuackingCanary",
+    },
+    {
+        name: "EZonTheEyes",
+        avatar: "https://avatars.githubusercontent.com/u/103911396?v=4",
+        github: "https://github.com/EZonTheEyes",
     },
     {
         name: "King",
@@ -58,15 +93,35 @@ const community_managers = [
         github: "https://github.com/MrKing202981",
     },
     {
-        name: "WillFaustCuber",
+        name: "WillFaust",
         avatar: "https://avatars.githubusercontent.com/u/39139570",
         github: "https://github.com/willfaust",
     },
+];
+
+const junior_community_managers = [
     {
-        name: "Ivar",
-        avatar: "https://avatars.githubusercontent.com/u/41924494",
-        github: "https://github.com/IvarWithoutBones",
+        name: "Crytonics",
+        avatar: "https://avatars.githubusercontent.com/u/102768683?v=4",
+        github: "https://github.com/Crytonics",
+    },
+    {
+        name: "Mateo",
+        avatar: "https://avatars.githubusercontent.com/u/73367365?v=4",
+        github: "https://github.com/mateoalfaro",
+    },
+    {
+        name: "Dekuzearou",
+        avatar: "https://avatars.githubusercontent.com/u/105598423?v=4",
+        github: "https://github.com/Dekuzearou",
     },
 ];
 
-export const team = [...lead_developers.map((i) => ({ ...i, title: "Lead Developer" })), ...developers.map((i) => ({ ...i, title: "Developer" })), ...web_developers.map((i) => ({ ...i, title: "Web Developer" })), ...bot_developers.map((i) => ({ ...i, title: "Bot Developer"})), ...community_managers.map((i) => ({ ...i, title: "Community Manager" }))];
+
+export const team = {
+    "App Developers": app_developers,
+    "Web/Bot Developers": web_developers.concat(bot_developers),
+    "Senior Community Managers": senior_community_managers,
+    "Community Managers": community_managers,
+    "Junior Community Managers": junior_community_managers,
+};

@@ -5,55 +5,40 @@
  */
 
 import * as React from "react";
-import { Link } from "gatsby";
-
-// styles
-const pageStyles = {
-    color: "#232129",
-    padding: "96px",
-    fontFamily: "-apple-system, Roboto, sans-serif, serif",
-};
-const headingStyles = {
-    marginTop: 0,
-    marginBottom: 64,
-    maxWidth: 320,
-};
-
-const paragraphStyles = {
-    marginBottom: 48,
-};
-const codeStyles = {
-    color: "#8A6534",
-    padding: 4,
-    backgroundColor: "#FFF4DB",
-    fontSize: "1.25rem",
-    borderRadius: 4,
-};
+import Layout from "../components/Layout";
+import Button from "../components/Button";
+import { FaHome } from "react-icons/fa";
 
 // markup
 const NotFoundPage = () => {
     return (
-        <main style={pageStyles}>
-            <title>Not found</title>
-            <h1 style={headingStyles}>Page not found</h1>
-            <p style={paragraphStyles}>
-                Sorry{" "}
-                <span role="img" aria-label="Pensive emoji">
-                    😔
-                </span>{" "}
-                we couldn't find what you were looking for.
-                <br />
-                {process.env.NODE_ENV === "development" ? (
-                    <>
-                        <br />
-                        Try creating a page in <code style={codeStyles}>src/pages/</code>.
-                        <br />
-                    </>
-                ) : null}
-                <br />
-                <Link to="/">Go home</Link>.
-            </p>
-        </main>
+        <Layout title="404 - Not Found">
+            <div className="w-full min-h-screen dark:text-white flex flex-col items-center justify-center">
+                <div className="mt-6 text-center">
+                    <div className="max-w-xl px-5 py-6 mx-auto rounded max-w-7xl bg-stone-100 dark:bg-zinc-900 rounded">
+                        <span className="text-5xl"><code>404</code> - Page not found</span>
+                        <div className="text-lg mt-5">
+                            Sorry, we couldn't find what you were looking for {" "}
+                            <span role="img" aria-label="Pensive emoji">
+                                😔
+                            </span>{" "}
+                            <br />
+                            {process.env.NODE_ENV === "development" ? (
+                                <>
+                                    <br />
+                                    Try creating a page in <code>src/pages/</code>
+                                    <br />
+                                </>
+                            ) : null}
+                            <br />
+                            <span className="flex space-x-2 justify-center m-2">
+                                <Button href="/" icon={<FaHome />} text="Go Home" />
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </Layout>
     );
 };
 

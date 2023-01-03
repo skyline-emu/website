@@ -7,7 +7,7 @@
 import React from "react";
 import CustomLink from "./CustomLink";
 import Button from "./Button";
-import { FaDownload } from "react-icons/fa";
+import { FaDownload, FaGithub } from "react-icons/fa";
 import { DateTime } from "luxon";
 
 const Markdown = ({ string }) => {
@@ -71,7 +71,7 @@ const BuildCard = ({ createdAt, message, download_url, github_url, branch, hash,
 
     return (
         <div className="mt-6">
-            <div className="max-w-7xl px-5 py-6 mx-auto rounded max-w-7xl bg-stone-50 dark:bg-zinc-900 rounded">
+            <div className="max-w-7xl px-5 py-6 mx-auto rounded max-w-7xl bg-stone-100 dark:bg-zinc-900 rounded">
                 <div className="flex items-center justify-between">
                     <span className="font-medium text-gray-600 dark:text-white">{DateTime.fromISO(createdAt).toLocaleString(DateTime.DATETIME_SHORT)}</span>
                 </div>
@@ -95,7 +95,7 @@ const BuildCard = ({ createdAt, message, download_url, github_url, branch, hash,
                 </div>
                 <div className="flex flex-col items-center gap-3 mt-4 md:flex-row">
                     <Button href={download_url} icon={<FaDownload />} text="Download" />
-                    <Button href={github_url} text="View On Github" />
+                    <Button href={github_url} icon={<FaGithub />} text="View On Github" />
                 </div>
             </div>
         </div>

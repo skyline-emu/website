@@ -9,12 +9,12 @@ import vulkan from "../images/vk.svg";
 import vulkan_white from "../images/vk_light.svg";
 import logo from "../images/logo.png";
 import Button from "../components/Button";
-import { FaDownload, FaSearch } from "react-icons/fa";
+import { FaDownload, FaSearch, FaStar } from "react-icons/fa";
 import DeviceMockup from "../components/DeviceMockup";
 
 const Landing = () => {
     return (
-        <div className="w-full pb-0 md:pb-20 md:h-full dark:bg-darkBackground">
+        <div className="w-full md:h-full dark:bg-darkBackground">
             <div className="px-5 py-24 mx-auto md:py-36 max-w-page">
                 <div className="flex flex-row">
                     <div className="w-full px-4 md:py-10 lg:w-6/12">
@@ -31,7 +31,10 @@ const Landing = () => {
                         </div>
                         <ul className="flex flex-wrap items-center justify-center md:justify-start font-roboto">
                             <span className="flex space-x-2 justify-center m-2">
-                                <Button href="/download" icon={<FaDownload />} text="Download" />
+                                <Button className="text-[#a88c5c] dark:text-[#BBA171]" href="https://www.patreon.com/skyline_emu" icon={<FaStar />} text="Get Skyline Edge" />
+                            </span>
+                            <span className="flex space-x-2 justify-center m-2">
+                                <Button href="/download" icon={<FaDownload />} text="Get Skyline" />
                             </span>
                             <span className="flex space-x-2 justify-center m-2">
                                 <Button href="#about" icon={<FaSearch />} text="Learn More" />

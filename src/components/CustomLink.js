@@ -6,6 +6,7 @@
 
 import React from "react";
 import { Link } from "gatsby";
+import AnchorLink from 'react-anchor-link-smooth-scroll-v2'
 import rippleFn from "../libs/ripple";
 import classnames from "classnames";
 
@@ -23,6 +24,18 @@ const CustomLink = ({ style, href, children, className, ripple }) =>
         >
             {children}
         </a>
+    ) :
+    href.startsWith("#") ? (
+        <AnchorLink
+            href={href}
+            style={style}
+            className={classnames(className, {
+                "relative overflow-hidden": ripple,
+            })}
+            onMouseDown={ripple ? rippleFn : undefined}
+        >
+            {children}
+        </AnchorLink>
     ) : (
         <Link
             to={href}

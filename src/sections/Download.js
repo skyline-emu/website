@@ -9,7 +9,7 @@ import CustomLink from "../components/CustomLink";
 
 const Download = () => {
     return (
-        <div className="w-full pb-20 lg:h-full dark:bg-darkBackground font-inter" id="download">
+        <div className="w-full pb-10 lg:h-full dark:bg-darkBackground font-inter" id="download">
             <div className="px-8 mx-auto max-w-page">
                 <div className="mb-20">
                     <div className="mx-auto text-center md:max-w-xl lg:max-w-3xl">
