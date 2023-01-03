@@ -11,10 +11,12 @@ const isBrowser = () => typeof window !== "undefined"
 
 const configureDarkMode = () => {
 
-    if (isBrowser() && window.matchMedia(colorSchemeMedia).matches) {
-        document.documentElement.classList.add('dark')
-    } else {
-        document.documentElement.classList.add('light')
+    if (isBrowser()) {
+        if (window.matchMedia(colorSchemeMedia).matches) {
+            document.documentElement.classList.add('dark')
+        } else {
+            document.documentElement.classList.add('light')
+        }
     }
 
     // TODO: Add a switch that respects local storage and allows user to choose
