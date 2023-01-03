@@ -31,7 +31,7 @@ const Landing = () => {
                         </div>
                         <ul className="flex flex-wrap items-center justify-center md:justify-start font-roboto">
                             <span className="flex space-x-2 justify-center m-2">
-                                <Button className="text-[#a88c5c] dark:text-[#BBA171]" href="https://www.patreon.com/skyline_emu" icon={<FaStar />} text="Get Skyline Edge" />
+                                <Button className="!text-[#A88C5C] !dark:text-[#BBA171]" href="https://www.patreon.com/skyline_emu" icon={<FaStar />} text="Get Skyline Edge" />
                             </span>
                             <span className="flex space-x-2 justify-center m-2">
                                 <Button href="/download" icon={<FaDownload />} text="Get Skyline" />
