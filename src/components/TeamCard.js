@@ -17,7 +17,7 @@ const TeamCard = ({ name, avatar, github }) => (
                 <LazyLoadImage alt={name} src={avatar} />
             </div>
             <div className="flex flex-col flex-none items-start">
-                <div className="-mt-8 text-2xl font-inter text-stone-600 dark:text-zinc-300 text-left">{name}</div>
+                <div className="-mt-8 text-2xl font-inter text-stone-600 dark:text-zinc-300 text-left overflow-hidden lg:text-xl">{name}</div>
                 <div className="mt-2 ml-1 flex flex-row flex-none">
                     <CustomLink href={github}>
                         <div className="text-2xl text-stone-700 dark:text-zinc-300"><FaGithub/></div>

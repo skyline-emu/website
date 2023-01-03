@@ -12,7 +12,7 @@ const TeamCategory = ({name, members}) => {
     return (
         <div className="m-5">
             <p className="text-black text-lg dark:text-white">{name}</p>
-            <div className="grid gap-6 pt-4 text-center md:grid-cols-4">
+            <div className="grid gap-6 pt-4 text-center lg:grid-cols-4">
                 {members.map((member, key) => (
                     <TeamCard {...{ ...member, key }} />
                 ))}
