@@ -4,7 +4,6 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
- import "react";
 
 const colorSchemeMedia = "(prefers-color-scheme: dark)";
 const isBrowser = () => typeof window !== "undefined"

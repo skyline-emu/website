@@ -8,9 +8,13 @@ import * as React from "react";
 import Layout from "../components/Layout";
 import Button from "../components/Button";
 import { FaHome } from "react-icons/fa";
+import configureDarkMode from "../libs/configureDarkMode";
 
 // markup
 const NotFoundPage = () => {
+
+    configureDarkMode();
+
     return (
         <Layout title="404 - Not Found">
             <div className="w-full min-h-screen dark:text-white flex flex-col items-center justify-center">

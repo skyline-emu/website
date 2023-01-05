@@ -12,8 +12,13 @@ import useSWR from "swr";
 import config from "../config";
 import { Helmet } from "react-helmet";
 import Spinner from "../components/Spinner";
+import configureDarkMode from "../libs/configureDarkMode";
+
 
 const IndexPage = () => {
+
+    configureDarkMode();
+
     const { data } = useSWR(config.builds_api_url, (url) => axios.get(url).then((r) => r.data));
 
     return (
