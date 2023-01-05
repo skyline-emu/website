@@ -9,16 +9,11 @@ import { Link } from "gatsby";
 import AnchorLink from 'react-anchor-link-smooth-scroll-v2'
 import rippleFn from "../libs/ripple";
 import classnames from "classnames";
-
-const GetPathName = () => {
-    if (typeof window !== "undefined")
-        return window.location.pathname;
-    return "";
-}
+import { getPathName } from "../libs/utils";
 
 const CustomLink = ({ style, href, children, className, ripple }) =>  {
-    if (href.startsWith(GetPathName() + "#"))
-        href = href.substring(GetPathName().length);
+    if (href.startsWith(getPathName() + "#"))
+        href = href.substring(getPathName().length);
     
     return href.startsWith("http") ? (
         <a

@@ -9,6 +9,7 @@ import { Link } from "gatsby";
 import AnchorLink from 'react-anchor-link-smooth-scroll-v2'
 import rippleFn from "../libs/ripple";
 import classNames from "classnames";
+import { getPathName } from "../libs/utils";
 
 const ButtonInner = ({ icon, text, className }) => (
     <div role="button" tabIndex={0} className={classNames("button relative overflow-hidden", className)} onMouseDown={rippleFn} onTouchStart={rippleFn}>
@@ -17,15 +18,9 @@ const ButtonInner = ({ icon, text, className }) => (
     </div>
 );
 
-const GetPathName = () => {
-    if (typeof window !== "undefined")
-        return window.location.pathname;
-    return "";
-}
-
 const Button = ({ href="", icon, text, onClick, className }) =>  {
-    if (href.startsWith(GetPathName() + "#"))
-        href = href.substring(GetPathName().length);
+    if (href.startsWith(getPathName() + "#"))
+        href = href.substring(getPathName().length);
     
     return href.startsWith("http") ? (
         <a href={href} onClick={onClick} rel="noreferrer" target="_blank" tabIndex={-1}>

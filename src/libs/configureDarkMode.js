@@ -5,8 +5,8 @@
  */
 
 
-const colorSchemeMedia = "(prefers-color-scheme: dark)";
-const isBrowser = () => typeof window !== "undefined"
+import { isBrowser } from "./utils";
+import { colorSchemeMedia } from "./utils";
 
 const configureDarkMode = () => {
 
