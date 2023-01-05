@@ -63,7 +63,6 @@ const handleDeclineCookie = () => {
     cookiesDeclined = true;
 };
 
-
 const Layout = ({ children, title}) => {
 
     const hasConsent = getCookieConsent();

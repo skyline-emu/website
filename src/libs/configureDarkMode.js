@@ -18,7 +18,6 @@ const configureDarkMode = () => {
         }
     }
 
-    // TODO: Add a switch that respects local storage and allows user to choose
 };
 
 export default configureDarkMode;

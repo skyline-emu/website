@@ -11,7 +11,6 @@ import Team from "../sections/Team";
 import Layout from "../components/Layout";
 import configureDarkMode from "../libs/configureDarkMode";
 
-
 const IndexPage = () => {
 
     configureDarkMode();
