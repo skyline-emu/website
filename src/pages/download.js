@@ -25,11 +25,24 @@ const IndexPage = () => {
                 <div className="px-8 mx-auto md:py-18 max-w-page">
                     {data === undefined ? (
                         <div className="preloader-container">
-                            <Spinner/>
+                            <Spinner />
                         </div>
                     ) : (
-                        data.map((build, idx) => {
-                            return <BuildCard key={idx} createdAt={build.createdAt} message={build.commit.message} download_url={`https://skyline-builds.alula.gay/cache/${build.id}/${build.apkName}`} github_url={`https://github.com/skyline-emu/skyline/commit/${build.commit.id}`} branch={build.branch} hash={build.commit.id} number={build.runNumber} />;
+                        data.flatMap((build, idx) => {
+                            if (build.branch === "ftx1") {
+                                return (
+                                    <BuildCard
+                                        key={idx}
+                                        createdAt={build.createdAt}
+                                        message={build.commit.message}
+                                        download_url={`https://skyline-builds.alula.gay/cache/${build.id}/${build.apkName}`}
+                                        github_url={`https://github.com/skyline-emu/skyline/commit/${build.commit.id}`}
+                                        branch={build.branch}
+                                        hash={build.commit.id}
+                                        number={build.runNumber}
+                                    />
+                                );
+                            } else return [];
                         })
                     )}
                 </div>
