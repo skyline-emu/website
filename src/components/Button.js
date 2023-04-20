@@ -6,7 +6,6 @@
 
 import React from "react";
 import { Link } from "gatsby";
-import AnchorLink from 'react-anchor-link-smooth-scroll-v2'
 import rippleFn from "../libs/ripple";
 import classNames from "classnames";
 
@@ -33,9 +32,9 @@ const Button = ({ href="", icon, text, onClick, className }) =>  {
         </a>
     ) :
     (href.startsWith("#")) ? (
-        <AnchorLink href={href} onClick={onClick} tabIndex={-1}>
+        <a href={href} onClick={onClick} tabIndex={-1}>
             <ButtonInner icon={icon} text={text} className={className} />
-        </AnchorLink>
+        </a>
     ) : (
         <Link to={href} onClick={onClick} tabIndex={-1}>
             <ButtonInner icon={icon} text={text} className={className} />
