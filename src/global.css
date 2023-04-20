@@ -9,6 +9,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Ripple Effect */
 .ripple {
     position: absolute;
