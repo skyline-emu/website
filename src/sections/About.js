@@ -19,30 +19,28 @@ const About = () => {
                             <img className="w-10 h-10 ml-3 rounded-full" src={logo} alt="" />
                         </h2>
                         <div className="mb-16 dark:text-white md:pr-16 pt-3 md:text-left text-center">
-                            <p>Skyline is designed to provide an accurate, performant, and user-friendly emulation experience through an ARM Compatibility Layer and System Emulation.</p>
+                            <p>Skyline was designed to provide an accurate, performant, and user-friendly emulation experience through an ARM Compatibility Layer and System Emulation.</p>
                         </div>
                     </div>
                     <div className="w-full md:w-2/3 md:text-left text-center">
                         <div className="mb-4">
-                            <h3 className="text-xl font-semibold text-darkPrimary">What is Skyline Edge?</h3>
+                            <h3 className="text-xl font-semibold text-darkPrimary">Is Skyline coming back?</h3>
                         </div>
                         <div className="mb-8 dark:text-white">
-                            <p>Skyline Edge is an early-access build of Skyline with all the latest features that we're working on, as a perk for subscribing to our <CustomLink className="font-bold text-primary underline" href="https://www.patreon.com/skyline_emu">Patreon</CustomLink>. Learn more by reading the <CustomLink className="font-bold text-primary underline" href="https://www.patreon.com/posts/introducing-edge-74229204">introductory blog post</CustomLink>.
-                            <br/><br/>
-                            It should be noted that all Skyline features (even Edge) are open-source, we're committed to being FOSS even with monetization.</p>
+                            <p>We have no plans to continue Skyline for the foreseeable future.</p>
                         </div>
                         <div className="mb-4">
-                            <h3 className="text-xl font-semibold text-darkPrimary">How does Skyline differ from Skyline Edge?</h3>
+                            <h3 className="text-xl font-semibold text-darkPrimary">Can someone else fork Skyline?</h3>
                         </div>
                         <div className="mb-8 dark:text-white">
-                            <p>While Skyline Edge is subscription-only, Skyline will forever remain free. We provide <CustomLink className="font-bold text-primary underline" href="#download">free builds</CustomLink> without Edge-exclusive features, these builds are generally two weeks behind Edge in terms of features.</p>
+                            <p>Yes, all Skyline code is completely open-source and licensed under MPL-2.0. The source code has been made available for anyone who wants to continue Skyline including the incomplete code for <code>texman</code> and <code>nnvk</code> which were still being worked on.</p>
                         </div>
                         <div className="mb-4">
-                            <h3 className="text-xl font-semibold text-darkPrimary">Who develops Skyline?</h3>
+                            <h3 className="text-xl font-semibold text-darkPrimary">Who developed Skyline?</h3>
                         </div>
                         <div className="mb-8 dark:text-white">
                             <p>
-                                The Skyline Project, while currently led by Mark, is composed of a team of open-source developers. See the&nbsp;
+                                The Skyline Project, while being led by Mark, was composed of a team of open-source developers. See the&nbsp;
                                 <CustomLink className="font-bold text-primary underline" href="#team">
                                     Team
                                 </CustomLink>
@@ -60,15 +58,7 @@ const About = () => {
                         </div>
                         <div className="mb-8 dark:text-white">
                             <p>
-                                As an open source project, the Skyline team greatly encourages contributions of any kind. If you'd like to contribute, join the{" "}
-                                <CustomLink className="font-bold text-primary underline" href="https://discord.gg/XnbXNQM">
-                                    Discord
-                                </CustomLink>{" "}
-                                and read the{" "}
-                                <CustomLink className="font-bold text-primary underline" href="https://github.com/skyline-emu/skyline/blob/master/CONTRIBUTING.md">
-                                    Contributing Guide
-                                </CustomLink>
-                                .
+                                As Skyline development has been discontinued, we are no longer accepting contributions. Nothing prevents anyone from forking Skyline as long as they follow our MPL-2.0 license.
                             </p>
                         </div>
                     </div>

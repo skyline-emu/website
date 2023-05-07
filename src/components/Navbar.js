@@ -67,9 +67,6 @@ const Navbar = () => {
                                 <CustomLink href="https://discord.gg/XnbXNQM" className="p-1 text-gray-500 text-4xl transition-colors duration-200 rounded-full focus:outline-none hover:text-gray-800 dark:hover:text-blue-500 dark:text-white md:ml-2">
                                     <FaDiscord />
                                 </CustomLink>
-                                <CustomLink href="https://www.patreon.com/skyline_emu" className="p-1 text-gray-500 text-3xl transition-colors duration-200 rounded-full focus:outline-none hover:text-gray-800 dark:hover:text-blue-500 dark:text-white md:ml-2">
-                                    <FaPatreon />
-                                </CustomLink>
                             </div>
                         </div>
                         <div className="flex md:hidden">

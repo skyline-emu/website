@@ -88,7 +88,7 @@ const community_managers = [
         github: "https://github.com/EZonTheEyes",
     },
     {
-        name: "King",
+        name: "Ray",
         avatar: "https://avatars.githubusercontent.com/u/73195869",
         github: "https://github.com/MrKing202981",
     },
