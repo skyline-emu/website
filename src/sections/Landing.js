@@ -32,9 +32,6 @@ const Landing = () => {
                         </div>
                         <ul className="flex flex-wrap items-center justify-center md:justify-start font-roboto">
                             <span className="flex space-x-2 justify-center m-2">
-                                <Button href="/download" icon={<FaDownload />} text="Get Skyline" />
-                            </span>
-                            <span className="flex space-x-2 justify-center m-2">
                                 <Button href="#about" icon={<FaSearch />} text="Learn More" />
                             </span>
                         </ul>

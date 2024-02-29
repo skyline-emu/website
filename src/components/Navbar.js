@@ -23,10 +23,6 @@ const paths = [
         name: "Team",
         path: "/#team",
     },
-    {
-        name: "Download",
-        path: "/download",
-    },
 ];
 
 const Navbar = () => {
