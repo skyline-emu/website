@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Sitemap: https://skyline-emu.one/sitemap-index.xml
+Host: https://skyline-emu.one

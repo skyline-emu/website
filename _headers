@@ -1,0 +1,31 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+/1bfc9850-e51c53b9001fa289b4aa.js
+  Cache-Control: public, max-age=31536000, immutable
+/commons-3f18faf61ffecd736ddb.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-404-js-0ae25e04af7d0c9f6ccf.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-download-js-2a1539fe2fb6419b2c26.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-7f8afb607b10aed1b197.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-privacy-policy-js-d0be436894b77df28410.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-fd661b4f05cb9a1d9891.js
+  Cache-Control: public, max-age=31536000, immutable
+/framework-215f2ff0da9aac138d5e.js
+  Cache-Control: public, max-age=31536000, immutable
+/styles.0eb83f65383812d04e5c.css
+  Cache-Control: public, max-age=31536000, immutable
+/app-64db4cf015e01b350b38.js
+  Cache-Control: public, max-age=31536000, immutable
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache

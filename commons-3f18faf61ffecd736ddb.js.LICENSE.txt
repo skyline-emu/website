@@ -1,0 +1,13 @@
+/*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/
+
+/*! js-cookie v3.0.1 | MIT */
+
+/**
+ * @license
+ * Copyright © 2022 Skyline Team and Contributors (https://github.com/skyline-emu/)
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
