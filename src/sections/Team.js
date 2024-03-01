@@ -12,7 +12,7 @@ const TeamCategory = ({name, members}) => {
     return (
         <div className="m-5">
             <p className="text-black text-lg dark:text-white">{name}</p>
-            <div className="grid gap-6 pt-4 text-center md:grid-cols-4">
+            <div className="grid gap-6 pt-4 text-center lg:grid-cols-4">
                 {members.map((member, key) => (
                     <TeamCard {...{ ...member, key }} />
                 ))}
@@ -31,7 +31,7 @@ const Team = () => {
                         <p className="pb-2 mb-6 font-semibold text-blue-500 md:mb-12 md:pb-0">The Skyline Team was composed of passionate individuals from all around the world 🌐</p>
                     </div>
                     {Object.entries(config.team).map(([name, members]) => (
-                        <TeamCategory name={name} members={members} />
+                        <TeamCategory name={name} members={members} key={name} />
                     ))}
                 </div>
             </div>
