@@ -7,8 +7,12 @@
 import * as React from "react";
 import Layout from "../components/Layout";
 import CustomLink from "../components/CustomLink";
+import configureDarkMode from "../libs/configureDarkMode";
 
 const PrivacyPolicyPage = () => {
+
+    configureDarkMode();
+
     return (
         <Layout title="Privacy Policy">
             <div className="mx-16 text-gray-800 dark:text-white">

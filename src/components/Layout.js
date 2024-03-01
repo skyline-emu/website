@@ -11,7 +11,6 @@ import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
 import Button from "./Button";
 import Cookies from "js-cookie";
-import useDarkModeState from "../libs/useDarkModeState";
 
 const addAnalyticsScripts = () => {
     console.log('Analytics Enabled');
@@ -64,15 +63,14 @@ const handleDeclineCookie = () => {
     cookiesDeclined = true;
 };
 
-const Layout = ({ children, title }) => {
-    const isDark = useDarkModeState();
+const Layout = ({ children, title}) => {
 
     const hasConsent = getCookieConsent();
     if (hasConsent)
         initializeCookies();
 
     return (
-        <main className={isDark ? "dark" : "light"}>
+        <main> 
             <Helmet htmlAttributes={{ lang: "en" }}>
                 <title>{title}</title>
             </Helmet>
